@@ -1,0 +1,4 @@
+* Authentication
+** TODO Rainbow table weeds (p18-20)
+** TODO Formula example (p24-25)
+
