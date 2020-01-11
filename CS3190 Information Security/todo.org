@@ -5,6 +5,17 @@
 ** TODO Expand on what an implicit policy is (p70)
 * Program/Database Security
 ** TODO Buffer overflow exploit examples (p18-p20)
-
+** Malware
+*** TODO Viruses pseudocode (p33)
+*** TODO Expand on boot sector viruses (p36-37)
+*** TODO Expand on multipartite viruses (p39)
+*** TODO Research the brain virus
+*** TODO Research the polymorphic toolkit examples
+*** TODO Research the Melissa virus
+*** TODO Research the Christmas Worm
+*** TODO Expand on Stuxnet virus (p51-58)
+*** TODO Expand on data/instruction disamguation examples (p61-62)
+*** TODO Expand on inhibit sharing (p67)
+*** TODO Expand on file alternation examples (p68)
 
 

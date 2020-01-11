@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Authentication" FOLDED="false" ID="ID_824598861" CREATED="1573924296901" MODIFIED="1576687566084" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="1.103">
+<hook NAME="MapStyle" zoom="0.386">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" show_note_icons="true" fit_to_viewport="false"/>
 
 <map_styles>
@@ -241,7 +241,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_384920230" CREATED="1576682544560" MODIFIED="1576682596607"><richcontent TYPE="NODE">
@@ -336,7 +335,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -360,7 +358,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Need to know rule: sensitive data allocated to only those who need access to it for work" ID="ID_345156332" CREATED="1577896514552" MODIFIED="1577896671444"/>
@@ -412,7 +409,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_1509690751" CREATED="1577903536973" MODIFIED="1577903561163"><richcontent TYPE="NODE">
 
@@ -426,7 +422,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_139675656" CREATED="1577903715219" MODIFIED="1577903732340"><richcontent TYPE="NODE">
 
@@ -469,7 +464,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_1145884747" CREATED="1577903615315" MODIFIED="1577903778613"><richcontent TYPE="NODE">
 
@@ -483,7 +477,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Corresponds to the security sensitivity for the object" ID="ID_988938296" CREATED="1577903801344" MODIFIED="1577903803591"/>
@@ -504,7 +497,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Subjects can only view content at their level or below" ID="ID_695124111" CREATED="1577904011891" MODIFIED="1577904026460"/>
@@ -524,7 +516,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Subjects can only mutate content at their level or above" ID="ID_1923579698" CREATED="1577904083491" MODIFIED="1577904109605"/>
@@ -552,7 +543,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node ID="ID_1316266721" CREATED="1577903715219" MODIFIED="1577905351171"><richcontent TYPE="NODE">
 
@@ -566,7 +556,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_910271839" CREATED="1577903760555" MODIFIED="1577905322892"><richcontent TYPE="NODE">
@@ -581,7 +570,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Kinda like Bell-La Padula&apos;s clearance/sensitivity levels innit" ID="ID_1810456568" CREATED="1577905411618" MODIFIED="1577905437455"/>
@@ -599,7 +587,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="e.g. monk can only read books written by the high priest, not pamphlets by a lowly commoner" ID="ID_1469899556" CREATED="1577904032470" MODIFIED="1577905535876"/>
@@ -618,7 +605,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Subjects can only mutate content at their level or above" ID="ID_455395675" CREATED="1577904083491" MODIFIED="1577904109605"/>
