@@ -1,51 +1,59 @@
 * Considerations
 ** Merge maps together
 Once connections are made
-* Unit 1
-** Slides
-*** DONE 12 
-    CLOSED: [2020-01-28 Tue 15:02]
-*** DONE 13 
-    CLOSED: [2020-01-28 Tue 19:07]
-*** TODO 14 
-    get and understand image
-*** TODO 15 
-    Discovering vs retrieving
-***  16 
-*** TODO 17 
-    get and understand image
-*** DONE 18 
-    CLOSED: [2020-01-28 Tue 20:03]
-*** DONE 19 
-    CLOSED: [2020-01-28 Tue 20:40]
-***  20 
-***  21 
-***  22 
-*** TODO 23 
-***  24 
-***  25 
-***  26 
-*** TODO [#A] 27 
-***  28 
-***  29 
-***  30 
-***  31 
-***  32 
-***  33 
-***  34 
-***  35 
-***  36 
-***  37 
-***  38 
-***  39 
-***  40 
-***  41 
-***  42 
-** Tasks
-*** DONE Features
-    CLOSED: [2020-01-28 Tue 20:17]
-*** DONE KDD goals
-    CLOSED: [2020-01-28 Tue 20:44]
-    Another word?
-*** DONE Stats & Machine learning relatedness
-    CLOSED: [2020-01-28 Tue 21:05]
+*** Accept the clunkiness for now
+** TODO [#A] Offshoot data mining tasks & challenges of data mining
+* Units
+** Unit 1
+*** Slides
+**** DONE 12 
+     CLOSED: [2020-01-28 Tue 15:02]
+**** DONE 13 
+     CLOSED: [2020-01-28 Tue 19:07]
+**** TODO 14 
+     get and understand image
+**** TODO 15 
+     Discovering vs retrieving
+****  16 
+**** TODO 17 
+     get and understand image
+**** DONE 18 
+     CLOSED: [2020-01-28 Tue 20:03]
+**** DONE 19 
+     CLOSED: [2020-01-28 Tue 20:40]
+****  20 
+****  21 
+****  22 
+**** TODO 23 
+****  24 
+****  25 
+****  26 
+**** DONE [#A] 27 
+     CLOSED: [2020-01-29 Wed 18:17]
+****  28 
+**** TODO 29 
+****  30 
+****  31 
+****  32 
+****  33 
+**** TODO 34 
+****  35 
+**** TODO 36 
+****  37 
+****  38 
+****  39 
+****  40 
+****  41 
+****  42 
+*** Tasks
+**** DONE Features
+     CLOSED: [2020-01-28 Tue 20:17]
+**** DONE KDD goals
+     CLOSED: [2020-01-28 Tue 20:44]
+     Another word?
+**** DONE Stats & Machine learning relatedness
+     CLOSED: [2020-01-28 Tue 21:05]
+**** TODO Data Mining Tasks examples look ugly
+**** TODO model of dependency?
+**** TODO Note styling
+**** TODO Given variable ... what?

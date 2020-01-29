@@ -2,8 +2,8 @@
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Introduction to Data Mining" FOLDED="false" ID="ID_1379736802" CREATED="1580221510166" MODIFIED="1580238567148" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="1.103">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
+<hook NAME="MapStyle" zoom="0.425">
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -19,7 +19,6 @@
 <stylenode LOCALIZED_TEXT="defaultstyle.note" COLOR="#000000" BACKGROUND_COLOR="#ffffff" TEXT_ALIGN="LEFT"/>
 <stylenode LOCALIZED_TEXT="defaultstyle.floating">
 <edge STYLE="hide_edge"/>
-<cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
 </stylenode>
 </stylenode>
 <stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right" STYLE="bubble">
@@ -63,8 +62,8 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="5" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="HEADINGS"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="8" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="What is Data Mining?" LOCALIZED_STYLE_REF="AutomaticLayout.level,1" POSITION="right" ID="ID_500678128" CREATED="1580221824339" MODIFIED="1580224015491">
 <edge COLOR="#ff0000"/>
 <richcontent TYPE="DETAILS">
@@ -79,7 +78,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Motivations" ID="ID_815018680" CREATED="1580223741999" MODIFIED="1580223764201">
 <node TEXT="Commercial" ID="ID_420673151" CREATED="1580221891908" MODIFIED="1580223776237">
@@ -96,7 +94,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Purchases" ID="ID_1702099532" CREATED="1580223955569" MODIFIED="1580223976756"><richcontent TYPE="DETAILS">
@@ -111,7 +108,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Bank transactions" ID="ID_464378397" CREATED="1580223978250" MODIFIED="1580223986982"/>
@@ -128,7 +124,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Competitive pressure to be optimised" ID="ID_1133916710" CREATED="1580222217213" MODIFIED="1580222317980"><richcontent TYPE="DETAILS">
@@ -143,7 +138,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -160,7 +154,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Remote sensors" ID="ID_1997689988" CREATED="1580238107214" MODIFIED="1580238147351"><richcontent TYPE="DETAILS">
 
@@ -174,7 +167,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Telescopes" ID="ID_1686432333" CREATED="1580238112270" MODIFIED="1580238168368"><richcontent TYPE="DETAILS">
@@ -189,7 +181,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Microarrays" ID="ID_1130024768" CREATED="1580238116182" MODIFIED="1580238247660"><richcontent TYPE="DETAILS">
@@ -204,7 +195,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Scientific simulations" ID="ID_1296513095" CREATED="1580238249379" MODIFIED="1580238254802"/>
@@ -221,7 +211,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Helps scientists" ID="ID_1620881627" CREATED="1580238329298" MODIFIED="1580238433617">
@@ -246,7 +235,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Caused by..." ID="ID_1344217713" CREATED="1580239006661" MODIFIED="1580240306977">
 <node TEXT="Automated data collection tools" ID="ID_1254445669" CREATED="1580239021490" MODIFIED="1580239030264"/>
@@ -264,7 +252,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Databases" ID="ID_826904495" CREATED="1580239043308" MODIFIED="1580239045331"/>
 <node TEXT="Data warehouses" ID="ID_462629377" CREATED="1580239045924" MODIFIED="1580239047972"/>
@@ -283,7 +270,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -302,7 +288,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -319,7 +304,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="" ID="ID_263111340" CREATED="1580242993235" MODIFIED="1580242993236">
 <hook NAME="FirstGroupNode"/>
@@ -336,7 +320,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Can be achieved by..." ID="ID_403110076" CREATED="1580240289722" MODIFIED="1580240294265">
 <node TEXT="Relevent prior knowledge" ID="ID_425507456" CREATED="1580239847419" MODIFIED="1580239852311"/>
@@ -361,7 +344,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Note all the possible conditions relate to a symptom" ID="ID_1196221689" CREATED="1580240449775" MODIFIED="1580240583628"><richcontent TYPE="DETAILS">
 
@@ -375,7 +357,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Help treat outliers more effectively" ID="ID_432954524" CREATED="1580240584502" MODIFIED="1580240681557"/>
@@ -393,7 +374,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Collect initial data" ID="ID_1518076291" CREATED="1580239988928" MODIFIED="1580240018790">
 <node TEXT="Describe it" ID="ID_89218569" CREATED="1580240019950" MODIFIED="1580240021899"/>
@@ -415,7 +395,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Missing fields" ID="ID_1570694197" CREATED="1580240769497" MODIFIED="1580240771205"/>
@@ -436,7 +415,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Feature..." ID="ID_1510767069" CREATED="1580241341815" MODIFIED="1580241801591"><richcontent TYPE="DETAILS">
 
@@ -450,7 +428,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Subset selection" ID="ID_1211940519" CREATED="1580240910726" MODIFIED="1580241764270"><richcontent TYPE="DETAILS">
 
@@ -464,7 +441,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Construction" ID="ID_999988144" CREATED="1580241109329" MODIFIED="1580241768302"><richcontent TYPE="DETAILS">
@@ -479,7 +455,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -495,7 +470,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Aggregations" ID="ID_674693771" CREATED="1580241669835" MODIFIED="1580241711789"><richcontent TYPE="DETAILS">
@@ -510,7 +484,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -526,7 +499,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Classification" ID="ID_224076658" CREATED="1580243111032" MODIFIED="1580243114320"/>
 <node TEXT="Clustering" ID="ID_1591697829" CREATED="1580243115216" MODIFIED="1580243118214"/>
@@ -544,7 +516,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Patterns in data" ID="ID_1825557373" CREATED="1580243295266" MODIFIED="1580243493062"><richcontent TYPE="DETAILS">
 
@@ -558,7 +529,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="" ID="ID_979096296" CREATED="1580243463576" MODIFIED="1580243463577">
@@ -583,7 +553,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -599,7 +568,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="8. Reviewing results" LOCALIZED_STYLE_REF="AutomaticLayout.level,3" ID="ID_1007452592" CREATED="1580243922159" MODIFIED="1580244007792"><richcontent TYPE="DETAILS">
@@ -614,10 +582,9 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
-<node TEXT="Consolidating discovered knowledge" LOCALIZED_STYLE_REF="AutomaticLayout.level,3" ID="ID_1054917864" CREATED="1580243993116" MODIFIED="1580244214434"><richcontent TYPE="DETAILS">
+<node TEXT="9. Consolidating discovered knowledge" LOCALIZED_STYLE_REF="AutomaticLayout.level,3" ID="ID_1054917864" CREATED="1580243993116" MODIFIED="1580318366081"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -629,7 +596,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="" ID="ID_890043234" CREATED="1580242993231" MODIFIED="1580242993234">
@@ -652,7 +618,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Statistics" ID="ID_1397706159" CREATED="1580244176375" MODIFIED="1580244177756">
 <node TEXT="Relates more into mathematics" ID="ID_666814003" CREATED="1580244299254" MODIFIED="1580244349191"><richcontent TYPE="DETAILS">
@@ -667,7 +632,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="More focused on..." ID="ID_1722959345" CREATED="1580244353479" MODIFIED="1580244429827">
@@ -688,7 +652,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Focus on improving performance" ID="ID_739267863" CREATED="1580244592737" MODIFIED="1580244864941"><richcontent TYPE="DETAILS">
@@ -703,7 +666,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Areas outside data mining" ID="ID_742367305" CREATED="1580244619401" MODIFIED="1580244634177">
@@ -725,7 +687,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Data cleaning" ID="ID_578522516" CREATED="1580244734534" MODIFIED="1580244736418"/>
 <node TEXT="Learning" ID="ID_1145501838" CREATED="1580244737085" MODIFIED="1580244738381"/>
@@ -749,12 +710,192 @@
     </p>
   </body>
 </html>
+</richcontent>
+<node TEXT="" ID="ID_1259726873" CREATED="1580321558963" MODIFIED="1580321558964">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="Training set" ID="ID_626708813" CREATED="1580317857944" MODIFIED="1580318706021"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      A collection of <b>records</b>&#160;used to create a <b>model</b>
+    </p>
+  </body>
+</html>
 
 </richcontent>
+<node TEXT="" ID="ID_424727432" CREATED="1580321576281" MODIFIED="1580321576283">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node ID="ID_824824100" CREATED="1580318691228" MODIFIED="1580318699624"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Each records contains a set of <b>attributes</b>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node ID="ID_1152550772" CREATED="1580317552014" MODIFIED="1580318723162"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      One of the attributes is the <b>class</b>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      A <i>category</i>&#160;in which a new observation belongs to
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="" ID="ID_1625525329" CREATED="1580321576280" MODIFIED="1580321576281">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="Goal for assigning classes for new data" LOCALIZED_STYLE_REF="styles.important" ID="ID_1561253892" CREATED="1580318782075" MODIFIED="1580318931840"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Records <i>previously unseen</i>&#160;should be assigned classes&#160;as accurately as possible
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="Model" ID="ID_1716062674" CREATED="1580317590117" MODIFIED="1580318678344"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      An interpretation of data, made as a function of non-class attributes
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Use of the word &quot;function&quot;" LOCALIZED_STYLE_REF="defaultstyle.note" ID="ID_1647943013" CREATED="1580318167863" MODIFIED="1580322222674"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Means more-so the <i>result</i>&#160;of a function, as opposed to the implementation of it
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="Test set" ID="ID_1968927781" CREATED="1580318942039" MODIFIED="1580318957970"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Used to determine the accuracy of the model
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Typically data available divided into..." ID="ID_1538471670" CREATED="1580318960391" MODIFIED="1580319578206"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Each <b>record</b>&#160;needs a <b>class</b>&#160;attribute already known/is determinable
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="" ID="ID_385965803" CREATED="1580321585114" MODIFIED="1580321585115">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="Training sets" ID="ID_1257241682" CREATED="1580318976190" MODIFIED="1580318987673">
+<font BOLD="true"/>
+</node>
+<node TEXT="Test sets" ID="ID_1921303692" CREATED="1580318982390" MODIFIED="1580318988099">
+<font BOLD="true"/>
+</node>
+<node TEXT="" ID="ID_1365793990" CREATED="1580321585112" MODIFIED="1580321585113">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="Works together" ID="ID_1120028230" CREATED="1580319126411" MODIFIED="1580320509849"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Training set builds the model, and the test set is used to validate it
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="" ID="ID_159957820" CREATED="1580321558961" MODIFIED="1580321558962">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="Typical workflow example" ID="ID_1911268246" CREATED="1580319811256" MODIFIED="1580321454887" HGAP_QUANTITY="22.999999731779106 pt" VSHIFT_QUANTITY="26.249999217689062 pt" BORDER_WIDTH="0.0 px">
+<hook URI="img/classification-workflow-example.png" SIZE="0.6423983" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="Solutions..." LOCALIZED_STYLE_REF="default" ID="ID_543414881" CREATED="1580317454210" MODIFIED="1580322115977">
 <node TEXT="Decision trees" ID="ID_262387192" CREATED="1580245071584" MODIFIED="1580245074142"/>
 <node TEXT="Nearest neighbour" ID="ID_1022881319" CREATED="1580245074487" MODIFIED="1580245076803"/>
 <node TEXT="Na&#xef;ve Bayes" ID="ID_799120809" CREATED="1580245081295" MODIFIED="1580245082471"/>
 <node TEXT="Neural networks" ID="ID_1310006635" CREATED="1580245083117" MODIFIED="1580245086524"/>
+</node>
 </node>
 <node TEXT="Regression" ID="ID_839059280" CREATED="1580244973106" MODIFIED="1580245112673"><richcontent TYPE="DETAILS">
 
@@ -768,10 +909,96 @@
     </p>
   </body>
 </html>
+</richcontent>
+<node TEXT="Given variable" ID="ID_1484065745" CREATED="1580322138088" MODIFIED="1580322510865"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The value of which is <b>predicted</b>
+    </p>
+  </body>
+</html>
 
 </richcontent>
+<node TEXT="Continuous in nature" LOCALIZED_STYLE_REF="styles.important" ID="ID_375326095" CREATED="1580322526168" MODIFIED="1580322574601"/>
+<node TEXT="Assume a model of dependency" ID="ID_107197260" CREATED="1580322308275" MODIFIED="1580322330341"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Can be linear or non-linear
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Based on other variables" ID="ID_1862504179" CREATED="1580322448185" MODIFIED="1580322565241"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Of which the values are known
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="Examples..." LOCALIZED_STYLE_REF="default" ID="ID_775368562" CREATED="1580322646034" MODIFIED="1580322827977">
+<node TEXT="Predicting body fat using BMI" ID="ID_1774330118" CREATED="1580323296956" MODIFIED="1580323446818">
+<hook URI="img/regression-bmi-example.png" SIZE="0.812881" NAME="ExternalObject"/>
+</node>
+<node TEXT="Sales to Advertising Expenditure" ID="ID_311456814" CREATED="1580322649821" MODIFIED="1580322755029"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Predict amount of new products being sold given an amount of advertising spending
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Wind velocities" ID="ID_1893187364" CREATED="1580322758195" MODIFIED="1580322782820"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      As a function of variables such as temperature, humidity, air pressure, etc.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="Studied in..." LOCALIZED_STYLE_REF="default" ID="ID_819313841" CREATED="1580322620806" MODIFIED="1580322827979">
+<node TEXT="Statistics" ID="ID_141418375" CREATED="1580322628118" MODIFIED="1580322631895"/>
+<node TEXT="Neural network fields" ID="ID_712287354" CREATED="1580322632118" MODIFIED="1580322636039"/>
+</node>
+<node TEXT="Solutions..." LOCALIZED_STYLE_REF="default" ID="ID_1179557035" CREATED="1580322098312" MODIFIED="1580322127296">
 <node TEXT="Regression models" ID="ID_1036455056" CREATED="1580245114012" MODIFIED="1580245116114"/>
 <node TEXT="Neural networks" ID="ID_1797220012" CREATED="1580245116748" MODIFIED="1580245118964"/>
+</node>
 </node>
 <node TEXT="Clustering" ID="ID_1284082622" CREATED="1580244974952" MODIFIED="1580245199278"><richcontent TYPE="DETAILS">
 
@@ -785,8 +1012,81 @@
     </p>
   </body>
 </html>
+</richcontent>
+<node TEXT="Find clusters such that..." ID="ID_740423538" CREATED="1580323540403" MODIFIED="1580323551717">
+<node TEXT="" ID="ID_1274498360" CREATED="1580323652111" MODIFIED="1580323652112">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="One cluster" ID="ID_396691893" CREATED="1580323570682" MODIFIED="1580323635426"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Data points are more similar the one another
+    </p>
+  </body>
+</html>
 
 </richcontent>
+</node>
+<node TEXT="Seperate clusters" ID="ID_934466845" CREATED="1580323593530" MODIFIED="1580323618134"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Data points are less similar to one another
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="" ID="ID_1625932435" CREATED="1580323652101" MODIFIED="1580323652111">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node ID="ID_15499382" CREATED="1580323652112" MODIFIED="1580323684162"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Using a <b>similarity measure</b>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Euclidean Distance" ID="ID_460620650" CREATED="1580323695360" MODIFIED="1580323715914"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      If attributes are continuous
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="3D example" ID="ID_1024138499" CREATED="1580324624518" MODIFIED="1580324637010">
+<hook URI="img/clustering-3d-distance-example.png" SIZE="0.79893476" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="Other problem-specific measures" ID="ID_164813071" CREATED="1580323701647" MODIFIED="1580323708783"/>
+</node>
+</node>
+</node>
+<node TEXT="Solutions..." LOCALIZED_STYLE_REF="default" ID="ID_1183999183" CREATED="1580323519035" MODIFIED="1580323529867">
 <node TEXT="K-means" ID="ID_811286559" CREATED="1580245202412" MODIFIED="1580245204240"/>
 <node TEXT="AHC" ID="ID_390676169" CREATED="1580245204892" MODIFIED="1580245228018"><richcontent TYPE="DETAILS">
 
@@ -800,7 +1100,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="SOM" ID="ID_1330304186" CREATED="1580245230637" MODIFIED="1580245237484"><richcontent TYPE="DETAILS">
@@ -815,8 +1114,8 @@
     </p>
   </body>
 </html>
-
 </richcontent>
+</node>
 </node>
 </node>
 <node TEXT="Association Rule Discovery" ID="ID_430710748" CREATED="1580244976606" MODIFIED="1580245270372"><richcontent TYPE="DETAILS">
@@ -831,8 +1130,41 @@
     </p>
   </body>
 </html>
+</richcontent>
+<node TEXT="Dependency rules" ID="ID_1131054325" CREATED="1580324931782" MODIFIED="1580324974379"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Predict occurence of an item, based on occurrences of other times
+    </p>
+  </body>
+</html>
 
 </richcontent>
+<node TEXT="Given a set of records" ID="ID_1410153158" CREATED="1580324980109" MODIFIED="1580325001321"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Contain some number of items, from a given collection
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="Examples..." LOCALIZED_STYLE_REF="default" ID="ID_1523977387" CREATED="1580324865568" MODIFIED="1580325027504">
+<node TEXT="Beer weirdos" ID="ID_582180160" CREATED="1580325039812" MODIFIED="1580325103901">
+<hook URI="img/assoc-beer-diaper-example.png" SIZE="0.71770334" NAME="ExternalObject"/>
+</node>
 <node TEXT="Market based analysis" ID="ID_1684882359" CREATED="1580245271789" MODIFIED="1580245315016"><richcontent TYPE="DETAILS">
 
 <html>
@@ -845,10 +1177,12 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
+</node>
+<node TEXT="Solutions..." LOCALIZED_STYLE_REF="default" ID="ID_1812208749" CREATED="1580325019254" MODIFIED="1580325033691">
 <node TEXT="Apriori algorithm" ID="ID_1882204972" CREATED="1580245276411" MODIFIED="1580245280873"/>
+</node>
 </node>
 <node TEXT="Outlier/Anomaly Detection" ID="ID_1209262143" CREATED="1580244985847" MODIFIED="1580245333388"><richcontent TYPE="DETAILS">
 
@@ -862,8 +1196,27 @@
     </p>
   </body>
 </html>
+</richcontent>
+<node TEXT="Detect significant deviations" ID="ID_635447100" CREATED="1580325159521" MODIFIED="1580325177717"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      What would be different from normal behaviour
+    </p>
+  </body>
+</html>
 
 </richcontent>
+</node>
+<node TEXT="Examples..." LOCALIZED_STYLE_REF="default" ID="ID_1139701052" CREATED="1580325181897" MODIFIED="1580325258424">
+<node TEXT="Credit card fraud" ID="ID_1378975930" CREATED="1580325185065" MODIFIED="1580325215955"/>
+<node TEXT="Network intrusion detection" ID="ID_821578849" CREATED="1580325223441" MODIFIED="1580325228200"/>
+</node>
+<node TEXT="Solutions..." LOCALIZED_STYLE_REF="default" ID="ID_995359330" CREATED="1580325146825" MODIFIED="1580325157170">
 <node TEXT="" ID="ID_1600572870" CREATED="1580245355792" MODIFIED="1580245355793">
 <hook NAME="FirstGroupNode"/>
 </node>
@@ -877,6 +1230,17 @@
 <node TEXT="-based" ID="ID_1036247265" CREATED="1580245355793" MODIFIED="1580245357546"/>
 </node>
 </node>
+</node>
+</node>
+<node TEXT="Challenges of Data Mining" POSITION="left" ID="ID_852983733" CREATED="1580325273551" MODIFIED="1580325278138">
+<edge COLOR="#007c00"/>
+<node TEXT="Scalability" ID="ID_571089062" CREATED="1580325289086" MODIFIED="1580325291613"/>
+<node TEXT="Dimensionality" ID="ID_1951661259" CREATED="1580325292351" MODIFIED="1580325295804"/>
+<node TEXT="Complex and Heterogenous Data" ID="ID_857273018" CREATED="1580325296095" MODIFIED="1580325309413"/>
+<node TEXT="Data Quality" ID="ID_1403473462" CREATED="1580325309742" MODIFIED="1580325312065"/>
+<node TEXT="Data Ownership and Distribution" ID="ID_1619416202" CREATED="1580325312814" MODIFIED="1580325318418"/>
+<node TEXT="Privacy Preservation" ID="ID_1534013283" CREATED="1580325318678" MODIFIED="1580325323139"/>
+<node TEXT="Streaming Data" ID="ID_1099994756" CREATED="1580325323487" MODIFIED="1580325325520"/>
 </node>
 </node>
 </map>
