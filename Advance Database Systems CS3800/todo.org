@@ -1,0 +1,16 @@
+* Considerations
+** Merge maps together
+Once connections are made
+*** Accept the clunkiness for now
+** Copy regexes
+* Units
+** Unit 1
+*** Slides
+**** TODO 9
+     Advantages of data fragmentation
+***** TODO Optimise relation tuples what?
+*** Tasks
+**** DONE Scale up vs out
+     CLOSED: [2020-01-30 Thu 17:51]
+**** TODO Storage issues > Storage solutions?
+**** TODO Tuple is a table row basically
