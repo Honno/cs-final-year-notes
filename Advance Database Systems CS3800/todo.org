@@ -9,8 +9,26 @@ Once connections are made
 **** TODO 9
      Advantages of data fragmentation
 ***** TODO Optimise relation tuples what?
+**** DONE 17
+     CLOSED: [2020-01-31 Fri 12:20]
+     Quorum examples
+**** TODO 18
 *** Tasks
 **** DONE Scale up vs out
      CLOSED: [2020-01-30 Thu 17:51]
 **** TODO Storage issues > Storage solutions?
 **** TODO Tuple is a table row basically
+**** TODO r vs R?
+**** TODO Pros vs Advantages?
+**** TODO Better primary copy images
+**** TODO Reliance on primary site explaination
+     Could be better
+**** TODO [#A] Especially reflect on map structure
+     Was feeling unmotivated when adding content
+**** TODO Master-Slave is a control, or part of primary copy?
+**** TODO Replica version?
+     p16: Conditions: W + R > N; W > N / 2 (locks when reading/writing; *replica version*)
+**** TODO ROWA?
+**** TODO Cleaner quorum examples?
+**** TODO Write-write conflicts in quorum?
+     Read-write instead?

@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Distributed Data Management" FOLDED="false" ID="ID_236673625" CREATED="1580403733059" MODIFIED="1580406507012" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle">
+<hook NAME="MapStyle" zoom="0.912">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
 
 <map_styles>
@@ -79,7 +79,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Scaling out" ID="ID_277395278" CREATED="1580404312511" MODIFIED="1580406514385"><richcontent TYPE="DETAILS">
 
@@ -93,7 +92,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Using Distributed Databases" ID="ID_1687231501" CREATED="1580404365079" MODIFIED="1580404407345"><richcontent TYPE="DETAILS">
@@ -108,7 +106,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -126,7 +123,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Does not have shared memory" ID="ID_960880582" CREATED="1580403903968" MODIFIED="1580403954953"><richcontent TYPE="DETAILS">
 
@@ -140,7 +136,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Interacts as one whole unit" ID="ID_1168867981" CREATED="1580403908904" MODIFIED="1580403938898"><richcontent TYPE="DETAILS">
@@ -155,7 +150,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -173,7 +167,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Distributed Database Management Systems" ID="ID_1365399593" CREATED="1580404051693" MODIFIED="1580405281341"><richcontent TYPE="DETAILS">
 
@@ -187,7 +180,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -205,7 +197,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="" ID="ID_1223927634" CREATED="1580405497269" MODIFIED="1580405497269">
 <hook NAME="FirstGroupNode"/>
@@ -222,7 +213,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Appears as a single system" ID="ID_1146178369" CREATED="1580405218558" MODIFIED="1580405228739"/>
@@ -238,7 +228,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="" ID="ID_912901" CREATED="1580405497268" MODIFIED="1580405497269">
@@ -264,7 +253,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="" ID="ID_67576431" CREATED="1580406431516" MODIFIED="1580406431517">
 <hook NAME="FirstGroupNode"/>
@@ -281,7 +269,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="" ID="ID_1274297678" CREATED="1580406101390" MODIFIED="1580406101391">
 <hook NAME="FirstGroupNode"/>
@@ -302,7 +289,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="\latex $r = r\textsubscript{1} U r\textsubscript{2} U ... U r\textsubscript{n}" ID="ID_1556500560" CREATED="1580409935033" MODIFIED="1580410261128"><richcontent TYPE="DETAILS">
@@ -317,11 +303,10 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Advantages" ID="ID_427265550" CREATED="1580414240238" MODIFIED="1580414250399">
-<node TEXT="Parallel processing on relation fragments" ID="ID_1837343346" CREATED="1580414252270" MODIFIED="1580414357728"><richcontent TYPE="DETAILS">
+<node TEXT="Parallel processing on relation fragments" ID="ID_1837343346" CREATED="1580414252270" MODIFIED="1580467890915"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -329,14 +314,28 @@
   </head>
   <body>
     <p>
-      Different rows of a table can be processed in parallel
+      Different rows of a table can be processed concurrently
     </p>
   </body>
 </html>
 
 </richcontent>
 </node>
-<node TEXT="Optimise relation tuples" ID="ID_296071566" CREATED="1580414361475" MODIFIED="1580414388976"/>
+<node TEXT="Optimise row access" ID="ID_296071566" CREATED="1580414361475" MODIFIED="1580467682467"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Relation can be split so tuples are placed in locations which most frequently access them
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 <node TEXT="" ID="ID_882391130" CREATED="1580410354434" MODIFIED="1580410354436">
 <hook NAME="SummaryNode"/>
@@ -396,7 +395,6 @@
     </table>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="\latex $account\textsubscript{2} = &#x3c3;\textsubscript{branch_name=&#x201c;Valleyview&#x201d;}(account)$" ID="ID_1546846445" CREATED="1580411234822" MODIFIED="1580411460982"><richcontent TYPE="DETAILS">
@@ -465,7 +463,6 @@
     </table>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -488,7 +485,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -503,6 +499,52 @@
   <body>
     <p>
       &#8904; is a natural join
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="Advantages" ID="ID_454465439" CREATED="1580467617988" MODIFIED="1580467663885">
+<node TEXT="Optimise attribute access" ID="ID_719603279" CREATED="1580414361475" MODIFIED="1580467764629"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Tuples can be split so each part is placed in locations which most frequently accesses them
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Efficient joining of the vertical fragments" ID="ID_1420510166" CREATED="1580467770440" MODIFIED="1580467819235"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The id attribute of the tuple makes matching rows simple
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Parallel processing on attributes of a relation" ID="ID_329679417" CREATED="1580467823279" MODIFIED="1580467872944"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Different columns of a table can be processed concurrently
     </p>
   </body>
 </html>
@@ -612,10 +654,9 @@
     </table>
   </body>
 </html>
-
 </richcontent>
 </node>
-<node TEXT="\latex $deposit_1 = &#x3a0;\textsubscript{account_number, balance, tuple_id}(employees)$" ID="ID_1169371522" CREATED="1580412599749" MODIFIED="1580413749196"><richcontent TYPE="DETAILS">
+<node TEXT="\latex $deposit_2 = &#x3a0;\textsubscript{account_number, balance, tuple_id}(employees)$" ID="ID_1169371522" CREATED="1580412599749" MODIFIED="1580467702501"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -714,7 +755,6 @@
     </table>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -734,7 +774,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Table split up" ID="ID_342526996" CREATED="1580405683284" MODIFIED="1580405813601"><richcontent TYPE="DETAILS">
 
@@ -748,7 +787,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Stored at different sites" ID="ID_1639430914" CREATED="1580405853353" MODIFIED="1580406189217"><richcontent TYPE="DETAILS">
@@ -763,7 +801,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="\latex Division of relation $r$ into $n$ fragments $r\textsubscript{1}, r\textsubscript{2}, ..., r\textsubscript{n}$" ID="ID_729484586" CREATED="1580409182343" MODIFIED="1580409521638">
@@ -779,7 +816,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -796,9 +832,26 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <hook URI="img/fragmentation-x-y.png" SIZE="0.88495576" NAME="ExternalObject"/>
+</node>
+<node TEXT="Mixture of Fragmentation" ID="ID_838524027" CREATED="1580467911131" MODIFIED="1580467951661"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Vertical and horizontal fragmentation can be mixed
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Fragments can be successively fragmented" ID="ID_1130271269" CREATED="1580468018081" MODIFIED="1580468088689">
+<hook URI="img/fragmentation-mix-example.png" SIZE="0.6007506" NAME="ExternalObject"/>
+</node>
 </node>
 </node>
 </node>
@@ -814,9 +867,8 @@
     </p>
   </body>
 </html>
-
 </richcontent>
-<node TEXT="Faster retrieval" ID="ID_1238924203" CREATED="1580406216521" MODIFIED="1580406307841"><richcontent TYPE="DETAILS">
+<node ID="ID_1136978239" CREATED="1580468938631" MODIFIED="1580469008198"><richcontent TYPE="NODE">
 
 <html>
   <head>
@@ -824,16 +876,140 @@
   </head>
   <body>
     <p>
-      Requested data comes from the optimal site
+      A relation&#8212;or relation fragment&#8212;is <i>replicated</i>
     </p>
   </body>
 </html>
 
 </richcontent>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Stored in two or more sites
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Partial replication" ID="ID_1717462349" CREATED="1580469067077" MODIFIED="1580469085270"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      A fragment of a relation R is replicated at some sites
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Full replication" ID="ID_762193019" CREATED="1580469013894" MODIFIED="1580469065147"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      A relation <i>R</i>&#160;is stored at all sites
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Advantages" ID="ID_1156173806" CREATED="1580469173898" MODIFIED="1580469176716">
+<node TEXT="Availability" ID="ID_965546362" CREATED="1580469182018" MODIFIED="1580469730078"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Fault tolerance&#8212;replicates act as a back-up
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="On failure of site containing relation R" ID="ID_145888118" CREATED="1580469715583" MODIFIED="1580469768543"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Does not result in unavailability of R, if replicas exist
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="Parallelism" ID="ID_917702990" CREATED="1580469182018" MODIFIED="1580469406525"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Queries on <i>R</i>&#160;may be processed by several nodes in parallel
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Reduced data transfer" ID="ID_1017733448" CREATED="1580469182018" MODIFIED="1580469825642"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Faster retrieval&#8212;the requested data comes from an optimal site
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node ID="ID_1615830987" CREATED="1580469799837" MODIFIED="1580469944359"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <i>R</i>&#160;is available locally at each site containing a replica
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Optimise..." ID="ID_1829102367" CREATED="1580469951409" MODIFIED="1580469960979">
 <node TEXT="Site&apos;s current capacity" ID="ID_1787006056" CREATED="1580406308680" MODIFIED="1580406400238"/>
 <node TEXT="Site location" ID="ID_1976119528" CREATED="1580406370702" MODIFIED="1580406376713"/>
 </node>
-<node TEXT="Fault tolerance" ID="ID_56927434" CREATED="1580406220305" MODIFIED="1580406255874"><richcontent TYPE="DETAILS">
+</node>
+</node>
+<node TEXT="Disadvantages" ID="ID_1855325179" CREATED="1580469978233" MODIFIED="1580469982204">
+<node TEXT="Cost of updates" ID="ID_670709093" CREATED="1580469983464" MODIFIED="1580469999551"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -841,12 +1017,438 @@
   </head>
   <body>
     <p>
-      Replicates act as a back-up
+      Each relation <i>R</i>&#160;must be updated
     </p>
   </body>
 </html>
 
 </richcontent>
+</node>
+<node TEXT="Complexity of concurrency control" ID="ID_208720356" CREATED="1580470001674" MODIFIED="1580470061006"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Concurrent updates to distinct replicas may lead to inconsistent data,&#160;unless mechanisms are implemented
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Concurrency control mechanisms" ID="ID_803591680" CREATED="1580470063615" MODIFIED="1580470078623">
+<node TEXT="Primary copy" ID="ID_798474534" CREATED="1580470080606" MODIFIED="1580470146965"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Choose one replica to be a <b>primary copy</b>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Locks of primary copy" ID="ID_1126404636" CREATED="1580470242587" MODIFIED="1580470304351"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Occurs at <b>primary site</b>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Primary site" ID="ID_1630088380" CREATED="1580470160351" MODIFIED="1580470170609"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Site containing the replica
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Different data items can have different primary sites" ID="ID_143737305" CREATED="1580470183732" MODIFIED="1580470192250"/>
+</node>
+<node TEXT="Write propagate" ID="ID_469132734" CREATED="1580470270899" MODIFIED="1580470619929">
+<hook URI="img/concurrency-control-primary-copy-write.png" SIZE="1.0" NAME="ExternalObject"/>
+<node TEXT="Propagation delay problems" ID="ID_1094491037" CREATED="1580470475216" MODIFIED="1580470586561">
+<hook URI="img/concurrency-control-primary-copy-delay.png" SIZE="1.0" NAME="ExternalObject"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      e.g. new <i>x</i>&#160;value&#160;doesn't get re-written in time for the old value to be used
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="Simple implementation" ID="ID_151980330" CREATED="1580470636638" MODIFIED="1580470688531"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Replicated data handled in a similar way to data that is not replicated
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Reliance on primary site" ID="ID_1617590543" CREATED="1580470691981" MODIFIED="1580470742485"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      If primary site of data item fails, the data item is technically inaccessible, even though replicas in other sites exist
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="Master-Slave Architecture" ID="ID_936028224" CREATED="1580470793263" MODIFIED="1580470878133"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Updates performed at single <i>master</i>&#160;site, propagating to <i>slave</i>&#160; sites
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Data is read-only at slave sites" ID="ID_835912062" CREATED="1580470895937" MODIFIED="1580470927172"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      No need to obtain locks at any remote site
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Decoupling of propagation and update transactions" ID="ID_630715322" CREATED="1580470996077" MODIFIED="1580471064897">
+<node TEXT="Propagation can happen..." ID="ID_353100917" CREATED="1580471081860" MODIFIED="1580471091559">
+<node TEXT="Immediately after transaction commits" ID="ID_1304437886" CREATED="1580471092253" MODIFIED="1580471100143"/>
+<node TEXT="Periodically" ID="ID_1040533238" CREATED="1580471101388" MODIFIED="1580471116325"/>
+</node>
+</node>
+<node TEXT="Useful in distribution information" ID="ID_363198799" CREATED="1580471227149" MODIFIED="1580471266707"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      e.g. from a central office to a branch-office
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="" ID="ID_385014795" CREATED="1580471466877" MODIFIED="1580471609962">
+<node TEXT="Replicas must see a transaction-consistent snapshot of store" ID="ID_22700278" CREATED="1580471492093" MODIFIED="1580471639975"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      A state reflecting all the effects of all transactions
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Up to some point in the serialization order" ID="ID_452636649" CREATED="1580471565595" MODIFIED="1580471573773"/>
+<node TEXT="No effects of any later transactions" ID="ID_1593966326" CREATED="1580471575467" MODIFIED="1580471583911"/>
+<node ID="ID_52680025" CREATED="1580471668942" MODIFIED="1580471765196"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      e.g. <code>CREATE SNAPSHOT</code>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Statement to create a snapshot of a relation or set of relations, at a remote site
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Snapshot refreshes either by..." ID="ID_1524470374" CREATED="1580471768967" MODIFIED="1580471780002">
+<node TEXT="Re-computation" ID="ID_838831670" CREATED="1580471782077" MODIFIED="1580471785047"/>
+<node TEXT="Incremental update" ID="ID_216451394" CREATED="1580471785324" MODIFIED="1580471788807"/>
+</node>
+<node TEXT="Refreshes..." ID="ID_1851326112" CREATED="1580471820845" MODIFIED="1580471825991">
+<node TEXT="Automatically" ID="ID_97379835" CREATED="1580471790719" MODIFIED="1580471830456">
+<node TEXT="Continuous" ID="ID_342397037" CREATED="1580471815345" MODIFIED="1580471817527"/>
+<node TEXT="Periodic" ID="ID_680880664" CREATED="1580471817766" MODIFIED="1580471819836"/>
+</node>
+<node TEXT="Manually" ID="ID_200924675" CREATED="1580471800271" MODIFIED="1580471833601"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Quorum" ID="ID_1689666899" CREATED="1580472286525" MODIFIED="1580472403749"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      A minimum number of votes a transaction has to obtain, in order to be allowed to perform an operation
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="" ID="ID_1502922718" CREATED="1580472678180" MODIFIED="1580472678181">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="Conditions" ID="ID_828885079" CREATED="1580472696451" MODIFIED="1580472719068"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Locks when reading &amp; writing
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="\latex $W + R &gt; N$" ID="ID_604517800" CREATED="1580472561992" MODIFIED="1580472585488"/>
+<node TEXT="\latex $W &gt; N / 2$" ID="ID_479123617" CREATED="1580472587543" MODIFIED="1580472596458"/>
+</node>
+<node TEXT="" ID="ID_1550544123" CREATED="1580472678179" MODIFIED="1580472678180">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="\latex $N$" ID="ID_1282869662" CREATED="1580472421186" MODIFIED="1580472920425"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Number of sites/nodes</b>&#160;that store a replicate of data
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="\latex $W$" ID="ID_346456343" CREATED="1580472446946" MODIFIED="1580472555618"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Write quorum</b>&#8212;minimum number of replicas needed to be updated, before <i>write </i>operation completes
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="\latex $R$" ID="ID_1586861102" CREATED="1580472505510" MODIFIED="1580472546811"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>Read quorum</b>&#8212;minimum number of replicas to be contacted, when data item is accessed by a <i>read</i>&#160;operation
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node ID="ID_571800474" CREATED="1580472882225" MODIFIED="1580472977638"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      ROWA: Too much <i>W</i>&#160;is inefficient
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Examples" ID="ID_165856615" CREATED="1580472798768" MODIFIED="1580472800932">
+<node TEXT="A" ID="ID_893580191" CREATED="1580472965439" MODIFIED="1580473228212">
+<hook URI="img/quorum-example-A.png" SIZE="1.0" NAME="ExternalObject"/>
+<node TEXT="" ID="ID_1954109593" CREATED="1580473410609" MODIFIED="1580473410610">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="\latex $R=3$" ID="ID_1306370270" CREATED="1580473303521" MODIFIED="1580473344511"/>
+<node TEXT="\latex $W=10$" ID="ID_1520778778" CREATED="1580473345117" MODIFIED="1580473348881"/>
+<node TEXT="" ID="ID_750742594" CREATED="1580473410606" MODIFIED="1580473410609">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="" ID="ID_410799577" CREATED="1580473499775" MODIFIED="1580473499776">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="\latex $13 &gt; N$" ID="ID_977026078" CREATED="1580473410610" MODIFIED="1580473612862"/>
+<node TEXT="\latex $10&gt;N/2$" ID="ID_60302121" CREATED="1580473410610" MODIFIED="1580473618238"/>
+<node TEXT="" ID="ID_307246746" CREATED="1580473499768" MODIFIED="1580473499775">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="Satisfies both conditions" ID="ID_323209499" CREATED="1580473570353" MODIFIED="1580473574717"/>
+<node TEXT="The correct choice of read/write set" ID="ID_1560062589" CREATED="1580473499776" MODIFIED="1580473554996">
+<font BOLD="true"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Includes overlap between a node both updated and read, which is typical
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="B" ID="ID_1555512522" CREATED="1580472966600" MODIFIED="1580473234197">
+<hook URI="img/quorum-example-B.png" SIZE="1.0" NAME="ExternalObject"/>
+<node TEXT="" ID="ID_1676479910" CREATED="1580473579174" MODIFIED="1580473579175">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="\latex $R=7$" ID="ID_828261560" CREATED="1580473370599" MODIFIED="1580473378404"/>
+<node TEXT="\latex $W=6$" ID="ID_731669515" CREATED="1580473378743" MODIFIED="1580473382299"/>
+<node TEXT="" ID="ID_1827917266" CREATED="1580473579169" MODIFIED="1580473579173">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="" ID="ID_57512375" CREATED="1580473672010" MODIFIED="1580473672022">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="\latex $13 &gt; N$" ID="ID_852772167" CREATED="1580473579175" MODIFIED="1580473624798"/>
+<node TEXT="\latex $6 = N/2$" ID="ID_1322552015" CREATED="1580473595307" MODIFIED="1580473668398"/>
+<node TEXT="" ID="ID_1374232372" CREATED="1580473672006" MODIFIED="1580473672010">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="\latex $W &lt; N/2$ not met" ID="ID_1909437542" CREATED="1580473672022" MODIFIED="1580473705570"/>
+<node TEXT="May lead to write-write conflicts" ID="ID_187453537" CREATED="1580473716241" MODIFIED="1580473727183"/>
+</node>
+</node>
+</node>
+<node TEXT="C" ID="ID_1178457544" CREATED="1580472967447" MODIFIED="1580473241198">
+<hook URI="img/quorum-example-C.png" SIZE="1.0" NAME="ExternalObject"/>
+<node TEXT="" ID="ID_186162958" CREATED="1580473809933" MODIFIED="1580473809934">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="\latex $R=1$" ID="ID_916350225" CREATED="1580473383630" MODIFIED="1580473387759"/>
+<node TEXT="\latex $W=12$" ID="ID_1819120263" CREATED="1580473388270" MODIFIED="1580473391448"/>
+<node TEXT="" ID="ID_1365919893" CREATED="1580473809931" MODIFIED="1580473809933">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="" ID="ID_783785834" CREATED="1580473844220" MODIFIED="1580473844221">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="\latex $13 &gt; N$" ID="ID_640671354" CREATED="1580473809935" MODIFIED="1580473817586"/>
+<node TEXT="\latex $12&gt;N/2$" ID="ID_239512045" CREATED="1580473822780" MODIFIED="1580473838916"/>
+<node TEXT="" ID="ID_1955510912" CREATED="1580473844219" MODIFIED="1580473844220">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="Satisfies both conditions" ID="ID_1940035347" CREATED="1580473844222" MODIFIED="1580473853310"/>
+<node TEXT="Correct but inefficient choice" ID="ID_549445650" CREATED="1580473855726" MODIFIED="1580473885621">
+<node TEXT="ROWA" ID="ID_635077362" CREATED="1580473869331" MODIFIED="1580473876339"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Read one, write all
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
 </node>
 </node>
 <node TEXT="" ID="ID_392213976" CREATED="1580406431513" MODIFIED="1580406431516">
@@ -864,7 +1466,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <hook URI="img/fragmentation-methods-combination.png" SIZE="0.8298755" NAME="ExternalObject"/>
 <node TEXT="Relation partitioned into several fragments" ID="ID_1395728180" CREATED="1580406454556" MODIFIED="1580406465582"/>
