@@ -28,7 +28,10 @@ Once connections are made
 **** TODO Master-Slave is a control, or part of primary copy?
 **** TODO Replica version?
      p16: Conditions: W + R > N; W > N / 2 (locks when reading/writing; *replica version*)
-**** TODO ROWA?
+**** DONE ROWA?
+     CLOSED: [2020-02-06 Thu 14:35]
 **** TODO Cleaner quorum examples?
+     Understand it better
 **** TODO Write-write conflicts in quorum?
-     Read-write instead?
+     See random example B notes
+**** TODO Paxos
