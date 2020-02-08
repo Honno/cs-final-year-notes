@@ -35,3 +35,11 @@ Once connections are made
 **** TODO Write-write conflicts in quorum?
      See random example B notes
 **** TODO Paxos
+**** TODO Re-order
+** Unit 2
+*** Tasks
+**** TODO Upto 13
+**** TODO Trackers
+**** TODO Hadoop user examples
+     Primarily Yahoo
+**** TODO GFS motivation
