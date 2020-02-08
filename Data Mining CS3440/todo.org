@@ -57,3 +57,7 @@ Once connections are made
 **** TODO model of dependency?
 **** TODO Note styling
 **** TODO Given variable ... what?
+** Unit 2
+*** TODO Upto (dis)similiarity
+*** TODO p8 "without much effect on performance"
+*** TODO Finish attribute types
