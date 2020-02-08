@@ -1,9 +1,9 @@
 <map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="Data" FOLDED="false" ID="ID_590376877" CREATED="1581178589335" MODIFIED="1581178623814" STYLE="oval">
+<node TEXT="Data" FOLDED="false" ID="ID_590376877" CREATED="1581178589335" MODIFIED="1581187472446" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="1.003">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
+<hook NAME="MapStyle" zoom="1.003" layout="OUTLINE">
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -63,8 +63,8 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="3" RULE="ON_BRANCH_CREATION"/>
-<hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="HEADINGS"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="4" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <node TEXT="What is data?" POSITION="right" ID="ID_488825352" CREATED="1581178616695" MODIFIED="1581179068403">
 <edge COLOR="#ff0000"/>
 <richcontent TYPE="DETAILS">
@@ -843,6 +843,558 @@
 <hook NAME="AlwaysUnfoldedNode"/>
 <node TEXT="Makes sense" ID="ID_1679749570" CREATED="1581183730550" MODIFIED="1581183732766"/>
 </node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Data Exploration" POSITION="right" ID="ID_1478284091" CREATED="1581187130632" MODIFIED="1581187185569">
+<edge COLOR="#ff00ff"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Preliminary explorations of data, to better understand its characteristics
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Motivations" ID="ID_714794880" CREATED="1581187205333" MODIFIED="1581187209971">
+<node TEXT="Tool selection" ID="ID_1080947715" CREATED="1581187212214" MODIFIED="1581187303128"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Help select appropriate tools for preprocessing or analysis
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Exploit pattern recognition" ID="ID_1171107661" CREATED="1581187254421" MODIFIED="1581187483557"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Humans are remarkably able to see patterns
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Analysis tool limitations" ID="ID_842798255" CREATED="1581187279148" MODIFIED="1581187395394"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      People can recognise patterns not captured by programs
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Pareidolia" ID="ID_1085547573" CREATED="1581187398026" MODIFIED="1581187441256"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      People see patterns where they shouldn't
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="" ID="ID_1853952536" CREATED="1581187524829" MODIFIED="1581187524829">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="Summary Statistics" ID="ID_509775880" CREATED="1581187149688" MODIFIED="1581190031768"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Finding numbers that summarise properties of data
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="" ID="ID_1462298315" CREATED="1581188436363" MODIFIED="1581188436363">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="Frequency" ID="ID_1609861496" CREATED="1581187778602" MODIFIED="1581188070517"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Proportion of times a value occurs in a data set
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="\latex $freq(female) = \frac{no. of females}{no. of people}$" ID="ID_1272771028" CREATED="1581188604248" MODIFIED="1581189178319"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Given attribute <i>gender</i>&#160;and a representative sample of people
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="Mode" ID="ID_51924949" CREATED="1581188096211" MODIFIED="1581188138563"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Most frequent attribute value
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Value with highest frequency" ID="ID_739136930" CREATED="1581189186388" MODIFIED="1581189196783"/>
+<node TEXT="Not necessarily unique" ID="ID_487432257" CREATED="1581189197165" MODIFIED="1581189241075"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Multiple values may have the same highest frequency
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="" ID="ID_1137960488" CREATED="1581189598641" MODIFIED="1581189598642">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="Typically used with categorical attributes" ID="ID_1896563425" CREATED="1581189598642" MODIFIED="1581189941613"/>
+</node>
+<node TEXT="" ID="ID_1718565387" CREATED="1581190933919" MODIFIED="1581190933920">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="Percentiles" ID="ID_688561915" CREATED="1581189878725" MODIFIED="1581190592676"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span http-equiv="content-type" content="text/html; charset=utf-8">Indicates the value below which a percentage of observations fall</span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="" ID="ID_51989821" CREATED="1581190526713" MODIFIED="1581190526714">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="Given..." ID="ID_1854375519" CREATED="1581190638198" MODIFIED="1581190648569">
+<node TEXT="\latex $x$" ID="ID_1105368328" CREATED="1581190360476" MODIFIED="1581190374741"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Ordinal or continuous attribute
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="\latex $p$" ID="ID_369287753" CREATED="1581190379836" MODIFIED="1581190414075"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Percentage value, represented as 0 to 100
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="" ID="ID_884563365" CREATED="1581190526710" MODIFIED="1581190526713">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="" ID="ID_835236084" CREATED="1581190689637" MODIFIED="1581190689639">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="\latex $p$-th percentile is a value $x_p$" ID="ID_378404427" CREATED="1581190345869" MODIFIED="1581190516697"/>
+<node TEXT="\latex $p$\% of the observed values of $x$ are smaller than $x_p$" ID="ID_1033639942" CREATED="1581190547721" MODIFIED="1581190620156"/>
+<node TEXT="" ID="ID_1794135607" CREATED="1581190689635" MODIFIED="1581190689637">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="\latex $50$th percentile is the value $x_{50}$" ID="ID_907209061" CREATED="1581190689639" MODIFIED="1581190813364"/>
+<node TEXT="\latex $50$\% of all values of $x$ are less than $x_{50}$" ID="ID_1512969343" CREATED="1581190788044" MODIFIED="1581190820883"/>
+</node>
+</node>
+<node TEXT="Requires continuos data" ID="ID_1299862996" CREATED="1581190205712" MODIFIED="1581190256753"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Percentiles are more useful for continuous data
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="" ID="ID_779553650" CREATED="1581190933917" MODIFIED="1581190933919">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="Income before tax" ID="ID_1889305798" CREATED="1581190933920" MODIFIED="1581191119040">
+<hook URI="img/percentiles-income-example.png" SIZE="0.7001167" NAME="ExternalObject"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Using percentiles shows disparity of income growth for 1% vs most people
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="" ID="ID_714955538" CREATED="1581191903579" MODIFIED="1581191903579">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="Mean" ID="ID_1690517675" CREATED="1581188316798" MODIFIED="1581192010484"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Average of all values
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="" ID="ID_415984760" CREATED="1581192514197" MODIFIED="1581192514199">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="\latex $\bar{x} = \frac{1}{n} (\sum_{i=1}^n{x_i} )$" ID="ID_429523441" CREATED="1581192195399" MODIFIED="1581192486512"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Formula for the typically used sample mean
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="" ID="ID_468066105" CREATED="1581192514195" MODIFIED="1581192514197">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="\latex $(\sum_{i=1}^n{x_i} )$" ID="ID_158422493" CREATED="1581192539023" MODIFIED="1581192577336"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The sum of all values
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="Median" ID="ID_982183029" CREATED="1581188320046" MODIFIED="1581192063351"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Middle value of a set of observations
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="" ID="ID_1505613340" CREATED="1581192770401" MODIFIED="1581192770403">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="\latex $\mathrm{median}(x) = \frac{x_{\lfloor(\#x+1) \div 2\rfloor} + x_{\lceil(\#x+1) \div 2\rceil}}{2}$" ID="ID_265822963" CREATED="1581192370834" MODIFIED="1581192744598"/>
+<node TEXT="" ID="ID_270402946" CREATED="1581192770399" MODIFIED="1581192770401">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="\latex $_{(\#x+1) \div 2}$" ID="ID_1409403507" CREATED="1581192770404" MODIFIED="1581193212209"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Index of <i>x</i>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="\latex $x$" ID="ID_1643268805" CREATED="1581192804393" MODIFIED="1581192877210"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Ordered list of values
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="\latex $#x$" ID="ID_53266608" CREATED="1581192770404" MODIFIED="1581192868745"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Length of values list
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="\latex $\lfloor . \rfloor$ \&amp; $\lceil . \rceil$" ID="ID_1777267602" CREATED="1581192884951" MODIFIED="1581193002470"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The floor and ceiling
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="" ID="ID_1497275563" CREATED="1581191903577" MODIFIED="1581191903578">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="Location" ID="ID_119949707" CREATED="1581187782666" MODIFIED="1581191751775"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Where the typical values is
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="" ID="ID_442252718" CREATED="1581191907411" MODIFIED="1581191907412">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="Range" ID="ID_1024389820" CREATED="1581188322533" MODIFIED="1581193338511"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Difference between largest and smallest values
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Variance" ID="ID_627804196" CREATED="1581188325294" MODIFIED="1581193438432"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span class="e24Kjd">Average of the squared differences from the <b>mean</b></span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="\latex $s^2_x = \frac{1}{n} \sum_{i=1}^n (x_i - \bar{x})^2$" ID="ID_131071612" CREATED="1581193522058" MODIFIED="1581193674442"/>
+<node TEXT="Standard deviation" ID="ID_1171253971" CREATED="1581193357053" MODIFIED="1581193758379"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Square root of the variance, to provide absolute homogeneity/scalability
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="" ID="ID_1459879707" CREATED="1581191907410" MODIFIED="1581191907411">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="Spread" ID="ID_1976157391" CREATED="1581187785954" MODIFIED="1581191591095"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      How similar or varied a set of values are
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="Visualisation" ID="ID_497774359" CREATED="1581187155967" MODIFIED="1581187158273">
+<node TEXT="dsaasd" ID="ID_1807468724" CREATED="1581188578824" MODIFIED="1581188579475"/>
+<node TEXT="dsada" ID="ID_1388805292" CREATED="1581188585759" MODIFIED="1581188587340"/>
+<node TEXT="dsada" ID="ID_1383808375" CREATED="1581188587760" MODIFIED="1581188588496"/>
+</node>
+<node TEXT="" ID="ID_9303340" CREATED="1581187524821" MODIFIED="1581187524828">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="Iris data set" ID="ID_938857030" CREATED="1581187524829" MODIFIED="1581187584647"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Popular set used in reviewing exploratory techniques
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="" ID="ID_975914219" CREATED="1581187636018" MODIFIED="1581187636018">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="\latex $\{Setosa,Virginica, Versicolour\}$" ID="ID_230275295" CREATED="1581187588109" MODIFIED="1581187631541"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Flower types
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="" ID="ID_1116179591" CREATED="1581187636017" MODIFIED="1581187636018">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="Class attribute" ID="ID_1237911391" CREATED="1581187636018" MODIFIED="1581187684335"/>
+</node>
+<node TEXT="" ID="ID_706569696" CREATED="1581187672619" MODIFIED="1581187672620">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="Sepal width &amp; height" ID="ID_1031428967" CREATED="1581187645661" MODIFIED="1581187668643"/>
+<node TEXT="Petal width &amp; height" ID="ID_320023730" CREATED="1581187655229" MODIFIED="1581187661525"/>
+<node TEXT="" ID="ID_1056223538" CREATED="1581187672617" MODIFIED="1581187672619">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="Non-class attributes" ID="ID_1836236528" CREATED="1581187672620" MODIFIED="1581187677551"/>
 </node>
 </node>
 </node>
