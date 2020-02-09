@@ -1,9 +1,9 @@
 <map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="Data" FOLDED="false" ID="ID_590376877" CREATED="1581178589335" MODIFIED="1581187472446" STYLE="oval">
+<node TEXT="Data" FOLDED="false" ID="ID_590376877" CREATED="1581178589335" MODIFIED="1581245987867" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="1.003" layout="OUTLINE">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false" show_icon_for_attributes="true" show_note_icons="true"/>
+<hook NAME="MapStyle" zoom="0.685">
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" show_note_icons="true" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -63,8 +63,12 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="4" RULE="ON_BRANCH_CREATION"/>
-<hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="19" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="HEADINGS"/>
+<node TEXT="" POSITION="right" ID="ID_310036177" CREATED="1581248118670" MODIFIED="1581248118671">
+<edge COLOR="#00007c"/>
+<hook NAME="FirstGroupNode"/>
+</node>
 <node TEXT="What is data?" POSITION="right" ID="ID_488825352" CREATED="1581178616695" MODIFIED="1581179068403">
 <edge COLOR="#ff0000"/>
 <richcontent TYPE="DETAILS">
@@ -79,8 +83,32 @@
     </p>
   </body>
 </html>
-
 </richcontent>
+<node TEXT="Objects" FOLDED="true" ID="ID_746518385" CREATED="1581178743652" MODIFIED="1581178873013"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      A collection of associated <b>attributes</b>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Record" ID="ID_1152683996" CREATED="1581178941527" MODIFIED="1581178943171"/>
+<node TEXT="Point" ID="ID_1490938853" CREATED="1581178943413" MODIFIED="1581178944330"/>
+<node TEXT="Case" ID="ID_518824508" CREATED="1581178944543" MODIFIED="1581178945184"/>
+<node TEXT="Observation" ID="ID_345823994" CREATED="1581178945336" MODIFIED="1581178947840"/>
+<node TEXT="Entity" ID="ID_694472517" CREATED="1581178948102" MODIFIED="1581178949383"/>
+<node TEXT="Instance" ID="ID_837412876" CREATED="1581178949703" MODIFIED="1581178951648"/>
+</node>
+</node>
+<node TEXT="" POSITION="right" ID="ID_1609692646" CREATED="1581248165555" MODIFIED="1581248165557">
+<edge COLOR="#007c00"/>
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
 <node TEXT="Attributes" ID="ID_412322811" CREATED="1581178730715" MODIFIED="1581178852884"><richcontent TYPE="DETAILS">
 
 <html>
@@ -93,34 +121,17 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Variable" ID="ID_624869904" CREATED="1581178901768" MODIFIED="1581178904482"/>
 <node TEXT="Field" ID="ID_84138574" CREATED="1581178904800" MODIFIED="1581178905977"/>
 <node TEXT="Characteristic" ID="ID_150637410" CREATED="1581178906191" MODIFIED="1581178908108"/>
 <node TEXT="Feature" ID="ID_201628376" CREATED="1581178908360" MODIFIED="1581178909276"/>
 </node>
-<node TEXT="Objects" ID="ID_746518385" CREATED="1581178743652" MODIFIED="1581178873013"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      A collection of associated <b>attributes</b>
-    </p>
-  </body>
-</html>
-
-</richcontent>
-<node TEXT="Record" ID="ID_1152683996" CREATED="1581178941527" MODIFIED="1581178943171"/>
-<node TEXT="Point" ID="ID_1490938853" CREATED="1581178943413" MODIFIED="1581178944330"/>
-<node TEXT="Case" ID="ID_518824508" CREATED="1581178944543" MODIFIED="1581178945184"/>
-<node TEXT="Observation" ID="ID_345823994" CREATED="1581178945336" MODIFIED="1581178947840"/>
-<node TEXT="Entity" ID="ID_694472517" CREATED="1581178948102" MODIFIED="1581178949383"/>
-<node TEXT="Instance" ID="ID_837412876" CREATED="1581178949703" MODIFIED="1581178951648"/>
 </node>
+<node TEXT="" POSITION="right" ID="ID_1694896522" CREATED="1581248118668" MODIFIED="1581248118670">
+<edge COLOR="#7c0000"/>
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
 <node TEXT="Attribute Values" ID="ID_966634439" CREATED="1581178978935" MODIFIED="1581182328923"><richcontent TYPE="DETAILS">
 
 <html>
@@ -133,9 +144,8 @@
     </p>
   </body>
 </html>
-
 </richcontent>
-<node TEXT="Properties" ID="ID_1696188470" CREATED="1581179014448" MODIFIED="1581179466162">
+<node TEXT="Properties" FOLDED="true" ID="ID_1696188470" CREATED="1581179014448" MODIFIED="1581179466162">
 <node TEXT="One attribute can use multiple sets of values" ID="ID_103464626" CREATED="1581179101732" MODIFIED="1581179459393"><richcontent TYPE="DETAILS">
 
 <html>
@@ -148,7 +158,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Multiple attributes can use one set of values" ID="ID_1601331793" CREATED="1581179207072" MODIFIED="1581179438556"><richcontent TYPE="DETAILS">
@@ -163,7 +172,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Properties of attribute values can be different" ID="ID_830955230" CREATED="1581179283368" MODIFIED="1581179424369"><richcontent TYPE="DETAILS">
 
@@ -177,7 +185,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -198,12 +205,11 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="" ID="ID_1689111300" CREATED="1581179484579" MODIFIED="1581179484580">
 <hook NAME="FirstGroupNode"/>
 </node>
-<node TEXT="Nominal" ID="ID_310541787" CREATED="1581179467653" MODIFIED="1581181467219"><richcontent TYPE="DETAILS">
+<node TEXT="Nominal" FOLDED="true" ID="ID_310541787" CREATED="1581179467653" MODIFIED="1581181467219"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -215,7 +221,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="" ID="ID_845226192" CREATED="1581179713985" MODIFIED="1581179713988">
 <hook NAME="FirstGroupNode"/>
@@ -234,7 +239,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Allows for null values" ID="ID_231638007" CREATED="1581180558251" MODIFIED="1581180626305"><richcontent TYPE="DETAILS">
@@ -249,7 +253,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="" ID="ID_884125421" CREATED="1581179713980" MODIFIED="1581179713984">
@@ -267,12 +270,11 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
 </node>
-<node TEXT="Ordinal" ID="ID_1552739936" CREATED="1581179470297" MODIFIED="1581180243033"><richcontent TYPE="DETAILS">
+<node TEXT="Ordinal" FOLDED="true" ID="ID_1552739936" CREATED="1581179470297" MODIFIED="1581180243033"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -284,7 +286,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="" ID="ID_1653453430" CREATED="1581180494804" MODIFIED="1581180494805">
 <hook NAME="FirstGroupNode"/>
@@ -301,7 +302,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="" ID="ID_866889988" CREATED="1581180494802" MODIFIED="1581180494803">
@@ -319,7 +319,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -327,7 +326,7 @@
 <node TEXT="" ID="ID_995181682" CREATED="1581179484577" MODIFIED="1581179484579">
 <hook NAME="SummaryNode"/>
 <hook NAME="AlwaysUnfoldedNode"/>
-<node TEXT="Distinctions can be unclear" ID="ID_1220406037" CREATED="1581179484580" MODIFIED="1581180827840"><richcontent TYPE="DETAILS">
+<node TEXT="Distinctions can be unclear" FOLDED="true" ID="ID_1220406037" CREATED="1581179484580" MODIFIED="1581180827840"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -339,7 +338,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="" ID="ID_1177890162" CREATED="1581180778757" MODIFIED="1581180778760">
 <hook NAME="FirstGroupNode"/>
@@ -356,7 +354,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="\latex $\{sunny &gt; overcast &gt; rainy\}$" ID="ID_1901489165" CREATED="1581180735302" MODIFIED="1581180909764"><richcontent TYPE="DETAILS">
@@ -371,7 +368,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Determination required" ID="ID_1993127691" CREATED="1581180910315" MODIFIED="1581180946330"><richcontent TYPE="DETAILS">
 
@@ -385,7 +381,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -407,14 +402,13 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
 <node TEXT="" ID="ID_1890416982" CREATED="1581179487180" MODIFIED="1581179487181">
 <hook NAME="FirstGroupNode"/>
 </node>
-<node TEXT="Interval" ID="ID_1136036105" CREATED="1581179472724" MODIFIED="1581181461697"><richcontent TYPE="DETAILS">
+<node TEXT="Interval" FOLDED="true" ID="ID_1136036105" CREATED="1581179472724" MODIFIED="1581181461697"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -426,7 +420,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="" ID="ID_1078021103" CREATED="1581181621908" MODIFIED="1581181621909">
 <hook NAME="FirstGroupNode"/>
@@ -443,7 +436,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="DETAILS">
 
@@ -457,7 +449,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="No sum or product operations" ID="ID_304834370" CREATED="1581181599405" MODIFIED="1581182477704"/>
@@ -476,7 +467,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="\latex February 8\textsuperscript{th}, 2020" ID="ID_1200221538" CREATED="1581181751248" MODIFIED="1581182018926"><richcontent TYPE="DETAILS">
@@ -491,12 +481,11 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
 </node>
-<node TEXT="Ratio" ID="ID_240963987" CREATED="1581179475440" MODIFIED="1581182154884"><richcontent TYPE="DETAILS">
+<node TEXT="Ratio" FOLDED="true" ID="ID_240963987" CREATED="1581179475440" MODIFIED="1581182154884"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -508,7 +497,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="" ID="ID_1811319668" CREATED="1581182554986" MODIFIED="1581182554986">
 <hook NAME="FirstGroupNode"/>
@@ -525,7 +513,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="" ID="ID_904386445" CREATED="1581182554982" MODIFIED="1581182554985">
@@ -543,7 +530,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -563,7 +549,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -571,7 +556,7 @@
 <node TEXT="" ID="ID_418494470" CREATED="1581183335668" MODIFIED="1581183335669">
 <hook NAME="SummaryNode"/>
 <hook NAME="AlwaysUnfoldedNode"/>
-<node TEXT="Discrete attributes" ID="ID_711646670" CREATED="1581182714735" MODIFIED="1581183019698"><richcontent TYPE="DETAILS">
+<node TEXT="Discrete attributes" FOLDED="true" ID="ID_711646670" CREATED="1581182714735" MODIFIED="1581183019698"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -583,7 +568,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="" ID="ID_843112692" CREATED="1581182862402" MODIFIED="1581182862403">
 <hook NAME="FirstGroupNode"/>
@@ -601,7 +585,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="" ID="ID_1311529107" CREATED="1581182862400" MODIFIED="1581182862402">
@@ -619,7 +602,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="ZIP codes" ID="ID_825978872" CREATED="1581182862404" MODIFIED="1581182871670"/>
@@ -636,12 +618,11 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
 </node>
-<node TEXT="Continuous attributes" ID="ID_720413690" CREATED="1581182720956" MODIFIED="1581183013993"><richcontent TYPE="DETAILS">
+<node TEXT="Continuous attributes" FOLDED="true" ID="ID_720413690" CREATED="1581182720956" MODIFIED="1581183013993"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -653,7 +634,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="" ID="ID_687091279" CREATED="1581183136178" MODIFIED="1581183136179">
 <hook NAME="FirstGroupNode"/>
@@ -670,7 +650,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1830463438" CREATED="1581183089716" MODIFIED="1581183130011"><richcontent TYPE="NODE">
@@ -685,7 +664,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Continuous interval values" ID="ID_1972181436" CREATED="1581183197939" MODIFIED="1581183318738"><richcontent TYPE="DETAILS">
@@ -700,7 +678,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="" ID="ID_1282828146" CREATED="1581183136177" MODIFIED="1581183136178">
@@ -715,7 +692,7 @@
 <node TEXT="" ID="ID_166587358" CREATED="1581182714730" MODIFIED="1581182714734">
 <hook NAME="SummaryNode"/>
 <hook NAME="AlwaysUnfoldedNode"/>
-<node TEXT="Specify attribute types for mining" ID="ID_1280769304" CREATED="1581183347137" MODIFIED="1581183457197"><richcontent TYPE="DETAILS">
+<node TEXT="Specify attribute types for mining" FOLDED="true" ID="ID_1280769304" CREATED="1581183347137" MODIFIED="1581183457197"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -727,7 +704,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="" ID="ID_997971207" CREATED="1581183665727" MODIFIED="1581183665727">
 <hook NAME="FirstGroupNode"/>
@@ -745,7 +721,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Deal with missing values" ID="ID_410028766" CREATED="1581183481926" MODIFIED="1581183658811"><richcontent TYPE="DETAILS">
@@ -760,7 +735,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -776,7 +750,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="" ID="ID_1281636694" CREATED="1581183665726" MODIFIED="1581183665727">
@@ -797,7 +770,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="" ID="ID_1352661602" CREATED="1581183735046" MODIFIED="1581183735047">
@@ -820,7 +792,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="\latex $Age &gt; 40$" ID="ID_1713979045" CREATED="1581183669376" MODIFIED="1581183787239"><richcontent TYPE="DETAILS">
@@ -835,7 +806,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="" ID="ID_564508092" CREATED="1581183730548" MODIFIED="1581183730550">
@@ -861,74 +831,11 @@
     </p>
   </body>
 </html>
-
 </richcontent>
-<node TEXT="Motivations" ID="ID_714794880" CREATED="1581187205333" MODIFIED="1581187209971">
-<node TEXT="Tool selection" ID="ID_1080947715" CREATED="1581187212214" MODIFIED="1581187303128"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Help select appropriate tools for preprocessing or analysis
-    </p>
-  </body>
-</html>
-
-</richcontent>
-</node>
-<node TEXT="Exploit pattern recognition" ID="ID_1171107661" CREATED="1581187254421" MODIFIED="1581187483557"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Humans are remarkably able to see patterns
-    </p>
-  </body>
-</html>
-
-</richcontent>
-<node TEXT="Analysis tool limitations" ID="ID_842798255" CREATED="1581187279148" MODIFIED="1581187395394"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      People can recognise patterns not captured by programs
-    </p>
-  </body>
-</html>
-
-</richcontent>
-</node>
-<node TEXT="Pareidolia" ID="ID_1085547573" CREATED="1581187398026" MODIFIED="1581187441256"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      People see patterns where they shouldn't
-    </p>
-  </body>
-</html>
-
-</richcontent>
-</node>
-</node>
-</node>
 <node TEXT="" ID="ID_1853952536" CREATED="1581187524829" MODIFIED="1581187524829">
 <hook NAME="FirstGroupNode"/>
 </node>
-<node TEXT="Summary Statistics" ID="ID_509775880" CREATED="1581187149688" MODIFIED="1581190031768"><richcontent TYPE="DETAILS">
+<node TEXT="Summary Statistics" FOLDED="true" ID="ID_509775880" CREATED="1581187149688" MODIFIED="1581190031768"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -940,7 +847,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="" ID="ID_1462298315" CREATED="1581188436363" MODIFIED="1581188436363">
 <hook NAME="FirstGroupNode"/>
@@ -957,7 +863,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="\latex $freq(female) = \frac{no. of females}{no. of people}$" ID="ID_1272771028" CREATED="1581188604248" MODIFIED="1581189178319"><richcontent TYPE="DETAILS">
 
@@ -971,7 +876,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -987,7 +891,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Value with highest frequency" ID="ID_739136930" CREATED="1581189186388" MODIFIED="1581189196783"/>
 <node TEXT="Not necessarily unique" ID="ID_487432257" CREATED="1581189197165" MODIFIED="1581189241075"><richcontent TYPE="DETAILS">
@@ -1002,7 +905,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1026,7 +928,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="" ID="ID_51989821" CREATED="1581190526713" MODIFIED="1581190526714">
 <hook NAME="FirstGroupNode"/>
@@ -1044,7 +945,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="\latex $p$" ID="ID_369287753" CREATED="1581190379836" MODIFIED="1581190414075"><richcontent TYPE="DETAILS">
@@ -1059,7 +959,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1090,7 +989,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1111,7 +1009,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1130,7 +1027,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="" ID="ID_415984760" CREATED="1581192514197" MODIFIED="1581192514199">
 <hook NAME="FirstGroupNode"/>
@@ -1147,7 +1043,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="" ID="ID_468066105" CREATED="1581192514195" MODIFIED="1581192514197">
@@ -1165,7 +1060,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1182,7 +1076,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="" ID="ID_1505613340" CREATED="1581192770401" MODIFIED="1581192770403">
 <hook NAME="FirstGroupNode"/>
@@ -1203,7 +1096,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="\latex $x$" ID="ID_1643268805" CREATED="1581192804393" MODIFIED="1581192877210"><richcontent TYPE="DETAILS">
 
@@ -1217,7 +1109,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="\latex $#x$" ID="ID_53266608" CREATED="1581192770404" MODIFIED="1581192868745"><richcontent TYPE="DETAILS">
@@ -1232,7 +1123,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1248,7 +1138,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1268,7 +1157,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1287,7 +1175,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Variance" ID="ID_627804196" CREATED="1581188325294" MODIFIED="1581193438432"><richcontent TYPE="DETAILS">
@@ -1302,7 +1189,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="\latex $s^2_x = \frac{1}{n} \sum_{i=1}^n (x_i - \bar{x})^2$" ID="ID_131071612" CREATED="1581193522058" MODIFIED="1581193674442"/>
 <node TEXT="Standard deviation" ID="ID_1171253971" CREATED="1581193357053" MODIFIED="1581193758379"><richcontent TYPE="DETAILS">
@@ -1317,7 +1203,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1336,20 +1221,296 @@
     </p>
   </body>
 </html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="Visualisation" FOLDED="true" ID="ID_497774359" CREATED="1581187155967" MODIFIED="1581243201077"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Conversion of data into a visual or tabular format
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="" ID="ID_763069573" CREATED="1581243806007" MODIFIED="1581243806009">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="Histograms" ID="ID_1807468724" CREATED="1581188578824" MODIFIED="1581245612834"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Shows the distributions of values, by dividing values into bins
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Bar is plotted with number of observations in each bin" ID="ID_302996136" CREATED="1581243523238" MODIFIED="1581245499855">
+<node TEXT="Indicates count of observations" ID="ID_1689636000" CREATED="1581243589039" MODIFIED="1581243607538"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Height of each bar
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Shape depends on number of bins" ID="ID_1008976766" CREATED="1581243625662" MODIFIED="1581243789689"/>
+</node>
+<node TEXT="2-dimensional histogram" ID="ID_1608476289" CREATED="1581244238609" MODIFIED="1581245624780"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Shows the joint distribution of two attributes
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="" ID="ID_1683225823" CREATED="1581243805997" MODIFIED="1581243806007">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="" ID="ID_539534214" CREATED="1581244068188" MODIFIED="1581244068189">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="\latex $width$ of petals" ID="ID_1857116658" CREATED="1581243806011" MODIFIED="1581244160913">
+<node TEXT="Larger divisions" ID="ID_884201451" CREATED="1581243909480" MODIFIED="1581244063345">
+<hook URI="img/histogram-pedal-width-example-1.png" SIZE="1.0" NAME="ExternalObject"/>
+</node>
+<node TEXT="Small divisions" ID="ID_81236888" CREATED="1581244025457" MODIFIED="1581244057921">
+<hook URI="img/histogram-pedal-width-example-2.png" SIZE="1.0" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="" ID="ID_1777242389" CREATED="1581244068186" MODIFIED="1581244068188">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="\latex $width$ \&amp; $length$ of petals" ID="ID_604834022" CREATED="1581244068190" MODIFIED="1581244277553">
+<hook URI="img/histogram-pedal-width-example-3.png" SIZE="1.0" NAME="ExternalObject"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Demonstrates correlations between petal width and length
+    </p>
+  </body>
+</html>
 
 </richcontent>
 </node>
 </node>
 </node>
-<node TEXT="Visualisation" ID="ID_497774359" CREATED="1581187155967" MODIFIED="1581187158273">
-<node TEXT="dsaasd" ID="ID_1807468724" CREATED="1581188578824" MODIFIED="1581188579475"/>
-<node TEXT="dsada" ID="ID_1388805292" CREATED="1581188585759" MODIFIED="1581188587340"/>
-<node TEXT="dsada" ID="ID_1383808375" CREATED="1581188587760" MODIFIED="1581188588496"/>
+<node TEXT="" ID="ID_1089012161" CREATED="1581245252825" MODIFIED="1581245252826">
+<hook NAME="FirstGroupNode"/>
 </node>
-<node TEXT="" ID="ID_9303340" CREATED="1581187524821" MODIFIED="1581187524828">
+<node TEXT="Box Plots" ID="ID_1388805292" CREATED="1581188585759" MODIFIED="1581245606443"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Shows distribution of values, plotting multiple statistical descriptions
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="IQR" ID="ID_1391833777" CREATED="1581244296559" MODIFIED="1581244308402"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Interquartile range
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Median" ID="ID_830296981" CREATED="1581244316520" MODIFIED="1581244318651"/>
+<node TEXT="\latex $25$th percentile" ID="ID_1412592661" CREATED="1581244318943" MODIFIED="1581244344993"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      1st quartile
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="\latex $75$th percentile" ID="ID_810489452" CREATED="1581244318943" MODIFIED="1581244367255"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      3rd quartile
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Minium point" ID="ID_880526456" CREATED="1581244443597" MODIFIED="1581244446075">
+<node TEXT="\latex $x_{25}$ - 1.5*IQR" ID="ID_1826322809" CREATED="1581244981849" MODIFIED="1581245038687"/>
+</node>
+<node TEXT="Maximum point" ID="ID_1493607346" CREATED="1581244536930" MODIFIED="1581244541423">
+<node TEXT="\latex $x_{75}$ + 1.5*IQR" ID="ID_1132191355" CREATED="1581244981849" MODIFIED="1581245048162"/>
+</node>
+<node TEXT="Outliers" ID="ID_1091614590" CREATED="1581245053688" MODIFIED="1581245055417"/>
+</node>
+<node TEXT="" ID="ID_432550099" CREATED="1581245252824" MODIFIED="1581245252825">
 <hook NAME="SummaryNode"/>
 <hook NAME="AlwaysUnfoldedNode"/>
-<node TEXT="Iris data set" ID="ID_938857030" CREATED="1581187524829" MODIFIED="1581187584647"><richcontent TYPE="DETAILS">
+<node TEXT="" ID="ID_1643506925" CREATED="1581245265442" MODIFIED="1581245265443">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="\latex $width$ of petals" ID="ID_67540988" CREATED="1581245110193" MODIFIED="1581245159235">
+<hook URI="img/box-plot-example.png" SIZE="1.0" NAME="ExternalObject"/>
+</node>
+<node TEXT="" ID="ID_347860381" CREATED="1581245265441" MODIFIED="1581245265442">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="" ID="ID_564147161" CREATED="1581245328872" MODIFIED="1581245328872">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="\latex $width$ \&amp; $length$ of sepals and petals" ID="ID_1395465430" CREATED="1581245265443" MODIFIED="1581245314274">
+<hook URI="img/box-plot-example-2.png" SIZE="0.75" NAME="ExternalObject"/>
+</node>
+<node TEXT="" ID="ID_567100488" CREATED="1581245328871" MODIFIED="1581245328871">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="\latex $width$ \&amp; $length$ of sepals and petals, across species" ID="ID_1201946746" CREATED="1581245328872" MODIFIED="1581245450699">
+<hook URI="img/box-plot-example-3.png" SIZE="0.6" NAME="ExternalObject"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Useful to classify new samples
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="" ID="ID_29712337" CREATED="1581245704947" MODIFIED="1581245704948">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="Scatter Plots" ID="ID_1383808375" CREATED="1581188587760" MODIFIED="1581245598396"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Shows distribution of values, by using attribute values to determine position
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="2D plots common" ID="ID_1864604747" CREATED="1581245819680" MODIFIED="1581245852424"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Multi-dimensional plots also possible, e.g. 3D
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Additional markets" ID="ID_1154185676" CREATED="1581245865271" MODIFIED="1581245887985"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Attributes can be displayed using size, shape and colour
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="" ID="ID_1748196904" CREATED="1581245704943" MODIFIED="1581245704947">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="\latex $width$ \&amp; $length$ of sepals and petals, across species" ID="ID_1051158860" CREATED="1581245704948" MODIFIED="1581245802559"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Plot relationships between pairwise attributes
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<hook URI="img/scatter-plot-example.png" SIZE="0.75" NAME="ExternalObject"/>
+</node>
+</node>
+</node>
+<node TEXT="" ID="ID_1516259221" CREATED="1581246128814" MODIFIED="1581246128816">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="Iris data set" FOLDED="true" ID="ID_1638078279" CREATED="1581187524829" MODIFIED="1581187584647"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -1361,12 +1522,11 @@
     </p>
   </body>
 </html>
-
 </richcontent>
-<node TEXT="" ID="ID_975914219" CREATED="1581187636018" MODIFIED="1581187636018">
+<node TEXT="" ID="ID_199449593" CREATED="1581187636018" MODIFIED="1581187636018">
 <hook NAME="FirstGroupNode"/>
 </node>
-<node TEXT="\latex $\{Setosa,Virginica, Versicolour\}$" ID="ID_230275295" CREATED="1581187588109" MODIFIED="1581187631541"><richcontent TYPE="DETAILS">
+<node TEXT="\latex $\{Setosa,Virginica, Versicolour\}$" ID="ID_1686748558" CREATED="1581187588109" MODIFIED="1581187631541"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -1378,26 +1538,1084 @@
     </p>
   </body>
 </html>
+</richcontent>
+</node>
+<node TEXT="" ID="ID_1078123466" CREATED="1581187636017" MODIFIED="1581187636018">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="Class attribute" ID="ID_442211249" CREATED="1581187636018" MODIFIED="1581187684335"/>
+</node>
+<node TEXT="" ID="ID_1106932748" CREATED="1581187672619" MODIFIED="1581187672620">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="Sepal width &amp; height" ID="ID_721613674" CREATED="1581187645661" MODIFIED="1581187668643"/>
+<node TEXT="Petal width &amp; height" ID="ID_255716155" CREATED="1581187655229" MODIFIED="1581187661525"/>
+<node TEXT="" ID="ID_1340516599" CREATED="1581187672617" MODIFIED="1581187672619">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="Non-class attributes" ID="ID_1063838692" CREATED="1581187672620" MODIFIED="1581187677551"/>
+</node>
+</node>
+</node>
+<node TEXT="" ID="ID_9303340" CREATED="1581187524821" MODIFIED="1581187524828">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="Motivations" FOLDED="true" ID="ID_714794880" CREATED="1581187205333" MODIFIED="1581187209971">
+<node TEXT="Tool selection" ID="ID_1080947715" CREATED="1581187212214" MODIFIED="1581187303128"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Help select appropriate tools for preprocessing or analysis
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Exploit pattern recognition" ID="ID_1171107661" CREATED="1581187254421" MODIFIED="1581187483557"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Humans are remarkably able to see patterns
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Analysis tool limitations" ID="ID_842798255" CREATED="1581187279148" MODIFIED="1581187395394"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      People can recognise patterns not captured by programs
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Pareidolia risks" ID="ID_1085547573" CREATED="1581187398026" MODIFIED="1581243345319"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      People see patterns where they shouldn't
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="" POSITION="right" ID="ID_1778940505" CREATED="1581246954094" MODIFIED="1581246954095">
+<edge COLOR="#00ffff"/>
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="Data Quality" POSITION="right" ID="ID_173202903" CREATED="1581245900774" MODIFIED="1581245954622">
+<edge COLOR="#00007c"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Ensuring data is useful
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Recognition" ID="ID_1615989758" CREATED="1581246811874" MODIFIED="1581246945682"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      What kinds of data quality problems exist?
+    </p>
+  </body>
+</html>
 
 </richcontent>
 </node>
-<node TEXT="" ID="ID_1116179591" CREATED="1581187636017" MODIFIED="1581187636018">
+<node TEXT="Detection" ID="ID_354794935" CREATED="1581246921152" MODIFIED="1581246925091"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      How can we detect these problems in our data?
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Action" ID="ID_1464925449" CREATED="1581246930784" MODIFIED="1581246934569"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      What can we do about these problems?
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="" POSITION="right" ID="ID_616079729" CREATED="1581246954093" MODIFIED="1581246954094">
+<edge COLOR="#ff00ff"/>
 <hook NAME="SummaryNode"/>
 <hook NAME="AlwaysUnfoldedNode"/>
-<node TEXT="Class attribute" ID="ID_1237911391" CREATED="1581187636018" MODIFIED="1581187684335"/>
-</node>
-<node TEXT="" ID="ID_706569696" CREATED="1581187672619" MODIFIED="1581187672620">
+<node TEXT="" ID="ID_1482654450" CREATED="1581247260055" MODIFIED="1581247260056">
 <hook NAME="FirstGroupNode"/>
 </node>
-<node TEXT="Sepal width &amp; height" ID="ID_1031428967" CREATED="1581187645661" MODIFIED="1581187668643"/>
-<node TEXT="Petal width &amp; height" ID="ID_320023730" CREATED="1581187655229" MODIFIED="1581187661525"/>
-<node TEXT="" ID="ID_1056223538" CREATED="1581187672617" MODIFIED="1581187672619">
+<node TEXT="Noise" FOLDED="true" ID="ID_119933012" CREATED="1581246954095" MODIFIED="1581246983286"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Random modifications of original values
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Poor reception" ID="ID_1377444913" CREATED="1581247020587" MODIFIED="1581247093134"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Causes distortion of a person's voice
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Electromagnetic fluctuations" ID="ID_648156253" CREATED="1581247114513" MODIFIED="1581247157442"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Causes snow on old TV sets
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Measuring wrong domain" ID="ID_1059100504" CREATED="1581247162025" MODIFIED="1581247877129"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Thermostats measuring immediate vicinity, rather than account for the actual room's average temperature
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="" ID="ID_457467166" CREATED="1581247260054" MODIFIED="1581247260055">
 <hook NAME="SummaryNode"/>
 <hook NAME="AlwaysUnfoldedNode"/>
-<node TEXT="Non-class attributes" ID="ID_1836236528" CREATED="1581187672620" MODIFIED="1581187677551"/>
+<node TEXT="Class conditional noise" FOLDED="true" ID="ID_931154657" CREATED="1581247200373" MODIFIED="1581247728027"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Noise that affects the class in observations
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="" ID="ID_1854800780" CREATED="1581247377076" MODIFIED="1581247377076">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="" ID="ID_1847379717" CREATED="1581247639040" MODIFIED="1581247639041">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="Measuring weight with clothes on" ID="ID_1973835977" CREATED="1581247562067" MODIFIED="1581247587508"/>
+<node TEXT="" ID="ID_1936906343" CREATED="1581247639039" MODIFIED="1581247639040">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="Hard to tease out" ID="ID_842247723" CREATED="1581247639042" MODIFIED="1581247749673"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Variety of clothing used, all with different added weight values
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="Measuring height with shoes" ID="ID_1254344147" CREATED="1581247285593" MODIFIED="1581247416827"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      e.g. by Brazilian healthcare practitioners
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Measuring height without shoes" ID="ID_4036492" CREATED="1581247345391" MODIFIED="1581247423384"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      e.g. by UK healthcare practitioners
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="" ID="ID_934010844" CREATED="1581247377075" MODIFIED="1581247377076">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="Hard to compare" ID="ID_263604316" CREATED="1581247377076" MODIFIED="1581247774843"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Variety of shoes used in Brazilian set, all with different added height values
+    </p>
+  </body>
+</html>
+
+</richcontent>
 </node>
 </node>
 </node>
+</node>
+<node TEXT="Outliers" FOLDED="true" ID="ID_1334101149" CREATED="1581247910404" MODIFIED="1581247933302"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Observations with characteristics considerably different than most other observations
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Origin" ID="ID_973232187" CREATED="1581247936857" MODIFIED="1581247997548"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      How we deal with outliers depends on how they came about
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="" ID="ID_516704520" CREATED="1581248017983" MODIFIED="1581248017984">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="Erroneous entry" ID="ID_1719424666" CREATED="1581247997994" MODIFIED="1581248342659"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      e.g. height entered using imperial, instead of metric
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Detection by unusual characteristics" ID="ID_1450716528" CREATED="1581248352090" MODIFIED="1581248412061"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Algorithms can automatically remove outlier observations
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="" ID="ID_1142505297" CREATED="1581248450005" MODIFIED="1581248450007">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="Unexpected observation" ID="ID_276743015" CREATED="1581248002121" MODIFIED="1581248071609"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Can be a very useful entry
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Is the outlier reproducible?" ID="ID_1973404934" CREATED="1581248518791" MODIFIED="1581248549768"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Can inform about its origin
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="" ID="ID_1825131969" CREATED="1581252542532" MODIFIED="1581252542532">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="Missing values" FOLDED="true" ID="ID_1450347069" CREATED="1581246956983" MODIFIED="1581252899319">
+<node TEXT="Reasons" ID="ID_660002108" CREATED="1581252464083" MODIFIED="1581252468322">
+<node TEXT="Information not collected" ID="ID_96911194" CREATED="1581252469534" MODIFIED="1581252494277"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      e.g. people declining to disclose their age on surveys
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Attributes not always applicable" ID="ID_44683273" CREATED="1581252495861" MODIFIED="1581252525197"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      e.g. children unlikely to have an annual income
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="" ID="ID_1814881266" CREATED="1581252542531" MODIFIED="1581252542532">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="Handling" FOLDED="true" ID="ID_645101440" CREATED="1581252542532" MODIFIED="1581252548548">
+<node TEXT="Removal" ID="ID_695691194" CREATED="1581252559109" MODIFIED="1581252567307"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Eliminate observations
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Imputing" ID="ID_400446284" CREATED="1581252568394" MODIFIED="1581252585541"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Estimate missing values of observations
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Ignoring" ID="ID_1581584055" CREATED="1581252586492" MODIFIED="1581252609546"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      During analysis, missing value is ignored
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Model possible values" ID="ID_1175373348" CREATED="1581252656619" MODIFIED="1581252692267"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Replacing missing values with all possible values
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="" ID="ID_248998166" CREATED="1581252785303" MODIFIED="1581252785304">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="Weighting by probability" ID="ID_1770446689" CREATED="1581252692649" MODIFIED="1581252764102"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      e.g. using frequency in previous data sets
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="" ID="ID_1969379947" CREATED="1581252785301" MODIFIED="1581252785303">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="Important changes of new data won&apos;t be seen" ID="ID_58800641" CREATED="1581252785305" MODIFIED="1581252822993"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="" ID="ID_1294272544" CREATED="1581253123568" MODIFIED="1581253123568">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="Duplicate data" FOLDED="true" ID="ID_1276463478" CREATED="1581246959976" MODIFIED="1581252984486"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Objects that duplicates one another, possibly only partially
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Merge problems" ID="ID_607260528" CREATED="1581252987234" MODIFIED="1581253017676"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      e.g. database records with the same primary key
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="" ID="ID_1715113032" CREATED="1581253123566" MODIFIED="1581253123568">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="Data cleaning" ID="ID_1852969002" CREATED="1581253123569" MODIFIED="1581253190308"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Useful for transforming data so that it has more utility
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="Data Preprocessing" POSITION="right" ID="ID_252727793" CREATED="1581246343779" MODIFIED="1581255548345">
+<edge COLOR="#00ff00"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Transforming raw observations into an understandable format for algorithms
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Sampling" ID="ID_1979643069" CREATED="1581253240036" MODIFIED="1581254756315"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Taking samples of observations for cost-effective analysis
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Representation" FOLDED="true" ID="ID_344619565" CREATED="1581253455977" MODIFIED="1581253485614"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Sample should represent the entire set of observations
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Property of interest" ID="ID_1145895730" CREATED="1581253509937" MODIFIED="1581253552530"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Sample should have approximately the same property of interest, as the entire set of observations
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="Types" FOLDED="true" ID="ID_1126075463" CREATED="1581253441818" MODIFIED="1581253444486">
+<node TEXT="Random sampling" ID="ID_1852663727" CREATED="1581253568992" MODIFIED="1581253582452"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Equal probability of selection any particular observation
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Replacement" ID="ID_918807140" CREATED="1581253658741" MODIFIED="1581253678824"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Observation removed when sampled
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Without replacement" ID="ID_104211116" CREATED="1581253589864" MODIFIED="1581253633304"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Observation not removed
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Same observations can be sampled multiple times" ID="ID_150967637" CREATED="1581253633950" MODIFIED="1581253638574"/>
+</node>
+</node>
+<node TEXT="Can lead to unbalanced classification" ID="ID_1651789190" CREATED="1581253688235" MODIFIED="1581253731661"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Randomness means outcomes can possibly be biased
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="Stratified sampling" ID="ID_1298924159" CREATED="1581253737924" MODIFIED="1581253830101"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Observations split into several partitions, to then be random sampled
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Partitions can be intentional" ID="ID_175297446" CREATED="1581253860528" MODIFIED="1581253948829"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      e.g. ensure sampling represents diversity in a population
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="" ID="ID_1193575136" CREATED="1581254057187" MODIFIED="1581254057188">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="Sample size" FOLDED="true" ID="ID_347835751" CREATED="1581253957800" MODIFIED="1581253961478">
+<node TEXT="Too many samples" ID="ID_969257579" CREATED="1581253964383" MODIFIED="1581254775445"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Defeats the purpose of sampling
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Too few samples" ID="ID_1043952681" CREATED="1581254002029" MODIFIED="1581254779904"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      May not be representative
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="" ID="ID_184675291" CREATED="1581254057186" MODIFIED="1581254057187">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="" ID="ID_776408787" CREATED="1581254155097" MODIFIED="1581254155098">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="Too many" ID="ID_1746711308" CREATED="1581254057189" MODIFIED="1581254192387">
+<hook URI="img/sampling-example-1.png" SIZE="0.2805869" NAME="ExternalObject"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Can see pattern very clearly
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="" ID="ID_789638676" CREATED="1581254155096" MODIFIED="1581254155097">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="" ID="ID_118901153" CREATED="1581254162041" MODIFIED="1581254162042">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="Too few" ID="ID_1183641171" CREATED="1581254082610" MODIFIED="1581254199506">
+<hook URI="img/sampling-example-3.png" SIZE="0.2568486" NAME="ExternalObject"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Hard pressed to find pattern
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="" ID="ID_743318181" CREATED="1581254162040" MODIFIED="1581254162041">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="Just right" ID="ID_1161729533" CREATED="1581254071220" MODIFIED="1581254263195">
+<hook URI="img/samping-example-2.png" SIZE="0.25352526" NAME="ExternalObject"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Can see pattern clearly
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="" ID="ID_957168483" CREATED="1581255446326" MODIFIED="1581255446326">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="Dimensionality Reduction" ID="ID_725557552" CREATED="1581253241886" MODIFIED="1581254738492"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Removing unnecessary attributes
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Purpose" FOLDED="true" ID="ID_1944788783" CREATED="1581254738928" MODIFIED="1581254744387">
+<node TEXT="Effeciency" ID="ID_1342993336" CREATED="1581254744960" MODIFIED="1581254831541"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Reduce processing power/time and memory required by algorithms
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Visualisation clarity" ID="ID_595801871" CREATED="1581254833734" MODIFIED="1581254870223"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Too many attributes can clutter otherwise interesting visualisations
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Reduce noise" ID="ID_1606063095" CREATED="1581254874005" MODIFIED="1581255009316"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Certain attributes may have no bearing to finding a desired class
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="" ID="ID_363030087" CREATED="1581255446325" MODIFIED="1581255446326">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="Feature elimination" ID="ID_1939626553" CREATED="1581255018906" MODIFIED="1581255043118"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Reduce feature space by eliminating attributes
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Often first-line to filtering" ID="ID_832832911" CREATED="1581255046759" MODIFIED="1581255118394"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Domain-specific knowledge can guide the elimination process
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Remaining features are still interpretable" ID="ID_129554774" CREATED="1581255126423" MODIFIED="1581255168312"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Does not lose meaning, and in the same units
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Loss of potential information" ID="ID_307097442" CREATED="1581255172191" MODIFIED="1581255196546"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Possible patterns could of emerged from removed attributes
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="Principal Component Analysis (PC)" ID="ID_975086458" CREATED="1581255022122" MODIFIED="1581255412042"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Linear algebra technique, commonly used for feature extraction
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Principal Component (PC)" ID="ID_1853229046" CREATED="1581255276901" MODIFIED="1581255417812"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      New attributes of a data set
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Linear combinations" ID="ID_1755838020" CREATED="1581255319492" MODIFIED="1581255373396"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Constructed from a set of original attributes
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Ordered" ID="ID_389072965" CREATED="1581255378978" MODIFIED="1581255406690"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      In decreasing amount of variance
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Independent" ID="ID_163653090" CREATED="1581255564498" MODIFIED="1581256041948"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Are <i>orthnormal</i>, i.e. orthogonal and normalised
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Orthogonal" ID="ID_1089841848" CREATED="1581255609684" MODIFIED="1581255902632"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Statistically independent, so attribute is uncorrelated
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Normalised" ID="ID_1760587007" CREATED="1581255614973" MODIFIED="1581255965876"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Attribute is reduced to a standardised scale
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="Not easily interpretable" ID="ID_1251481403" CREATED="1581256046080" MODIFIED="1581256050080"/>
+</node>
+</node>
+</node>
+<node TEXT="Attribute Transformation" ID="ID_1628015268" CREATED="1581253246110" MODIFIED="1581253249813"/>
 </node>
 </node>
 </map>

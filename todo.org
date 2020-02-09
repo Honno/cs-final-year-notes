@@ -1,0 +1,7 @@
+* TODO Setup rendering hook
+  Would be really cool but prob too much effort
+** TODO Set up redhat linux server
+   Runs command line freeplane
+** TODO Configurate a git hook
+   No idea how
+  
