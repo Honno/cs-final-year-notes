@@ -4,4 +4,5 @@
    Runs command line freeplane
 ** TODO Configurate a git hook
    No idea how
+* Detatch info sec notes
   

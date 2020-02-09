@@ -1,3 +1,6 @@
 #!/bin/sh
 
-echo "hello"
+for mindmap in **/*.mm; do
+    echo $mindmap
+done
+
