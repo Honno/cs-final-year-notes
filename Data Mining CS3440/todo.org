@@ -58,10 +58,12 @@ Once connections are made
 **** TODO Note styling
 **** TODO Given variable ... what?
 ** Unit 2
-*** TODO Upto PCA
+*** DONE Upto PCA
+    CLOSED: [2020-02-16 Sun 09:10]
 *** TODO p8 "without much effect on performance"
 *** TODO Finish attribute types
 *** TODO p19 attribute/attribute value distinction
 *** TODO p18 summary node issues
     Add "Most summary statistics can be calculated in a single pass through the data"
 *** TODO percentiles—bell vs \ vs \/ curves
+*** TODO PCA iris dataset styling

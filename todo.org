@@ -2,4 +2,8 @@
   Would be really cool but prob too much effort
 ** TODO Get freeplane export script working? ugghh
 * TODO Detatch info sec notes
+* TODO Stylesheet
+** TODO table cells not wrapping
+*** TODO Clear table hardcoded styling afterwards
+** TODO Latex font size
   
