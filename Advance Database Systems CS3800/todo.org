@@ -37,7 +37,7 @@ Once connections are made
 **** TODO Paxos
 **** TODO Re-order
 ** Unit 2
-*** Tasks
+*** Hadoop
 **** TODO Upto 13
 **** TODO Trackers
 **** TODO Hadoop user examples
@@ -49,3 +49,8 @@ Once connections are made
      Leave it til later when I can make a comprehensive Hadoop mindmap
 **** TODO Programming HDFS
      Is this necessary for the exam, or just course work?
+*** TODO MapReduce
+**** TODO Anually Highest Temp analogy?
+     What was this about again
+**** TODO Programming
+     Prob just refer to this for coursework

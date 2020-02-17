@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Hadoop" FOLDED="false" ID="ID_230336575" CREATED="1581156673362" MODIFIED="1581156820386" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="0.754">
+<hook NAME="MapStyle" zoom="0.685">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" show_note_icons="true" fit_to_viewport="false"/>
 
 <map_styles>
@@ -63,7 +63,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="8" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="13" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="HEADINGS"/>
 <node TEXT="Architecture" POSITION="right" ID="ID_1614943076" CREATED="1581157511083" MODIFIED="1581932819856"><richcontent TYPE="DETAILS">
 
@@ -1187,7 +1187,7 @@
 <hook NAME="SummaryNode"/>
 <hook NAME="AlwaysUnfoldedNode"/>
 <node TEXT="Write operation example" ID="ID_200785531" CREATED="1581937933034" MODIFIED="1581938391539">
-<hook URI="img/hdfs-replica-placement-strategy.png" SIZE="1.0" NAME="ExternalObject"/>
+<hook URI="img/hdfs-replica-placement-strategy.png" SIZE="0.80340624" NAME="ExternalObject"/>
 </node>
 </node>
 <node TEXT="" ID="ID_556576648" CREATED="1581937958247" MODIFIED="1581937958248">
@@ -1268,13 +1268,14 @@
 </node>
 </node>
 </node>
+<node TEXT="" POSITION="right" ID="ID_956774786" CREATED="1581965009668" MODIFIED="1581965009669">
+<edge COLOR="#0000ff"/>
+<hook NAME="FirstGroupNode"/>
+</node>
 <node TEXT="Map Reduce" POSITION="right" ID="ID_21597518" CREATED="1581942371418" MODIFIED="1581942375333">
 <edge COLOR="#007c00"/>
 <node TEXT="Design" ID="ID_1240437249" CREATED="1581942473917" MODIFIED="1581942474838">
 <node TEXT="" ID="ID_1816008725" CREATED="1581944883163" MODIFIED="1581944883163">
-<hook NAME="FirstGroupNode"/>
-</node>
-<node TEXT="" ID="ID_1107291582" CREATED="1581944884531" MODIFIED="1581944884532">
 <hook NAME="FirstGroupNode"/>
 </node>
 <node TEXT="Analogy" ID="ID_1135526444" CREATED="1581943291068" MODIFIED="1581944876775"><richcontent TYPE="DETAILS">
@@ -1302,7 +1303,7 @@
 <node TEXT="" ID="ID_217492989" CREATED="1581944948163" MODIFIED="1581944948164">
 <hook NAME="FirstGroupNode"/>
 </node>
-<node TEXT="Multi-threading" ID="ID_1282491760" CREATED="1581944943976" MODIFIED="1581945042734">
+<node TEXT="Multi-threading" FOLDED="true" ID="ID_1282491760" CREATED="1581944943976" MODIFIED="1581945042734">
 <hook URI="img/map-reduce-design/word-counter-example-2.png" SIZE="0.6741573" NAME="ExternalObject"/>
 <node TEXT="Shared data is locked" ID="ID_1407336303" CREATED="1581945044781" MODIFIED="1581945391608"><richcontent TYPE="DETAILS">
 
@@ -1325,7 +1326,7 @@
 <node TEXT="" ID="ID_1787567517" CREATED="1581946626061" MODIFIED="1581946626062">
 <hook NAME="FirstGroupNode"/>
 </node>
-<node TEXT="Separated parsers and counters" ID="ID_1683908919" CREATED="1581944948165" MODIFIED="1581945485227">
+<node TEXT="Separated parsers and counters" FOLDED="true" ID="ID_1683908919" CREATED="1581944948165" MODIFIED="1581945485227">
 <hook URI="img/map-reduce-design/word-counter-example-3.png" SIZE="0.6741573" NAME="ExternalObject"/>
 <node TEXT="" ID="ID_216847776" CREATED="1581945911955" MODIFIED="1581945911955">
 <hook NAME="FirstGroupNode"/>
@@ -1402,7 +1403,7 @@
 
 </richcontent>
 </node>
-<node TEXT="MapReduce" ID="ID_1047049475" CREATED="1581947130355" MODIFIED="1581947962128"><richcontent TYPE="DETAILS">
+<node TEXT="MapReduce" LOCALIZED_STYLE_REF="styles.important" ID="ID_1047049475" CREATED="1581947130355" MODIFIED="1581953915139"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -1510,6 +1511,823 @@
 </node>
 </node>
 </node>
+</node>
+<node TEXT="" ID="ID_699274876" CREATED="1581954734541" MODIFIED="1581954734541">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="MapReduce implementation" ID="ID_557377907" CREATED="1581954490722" MODIFIED="1581954697482">
+<hook URI="img/map-reduce-design/mapreduce-word-counter-example-1.png" SIZE="0.66079295" NAME="ExternalObject"/>
+</node>
+<node TEXT="" ID="ID_1873393393" CREATED="1581954734539" MODIFIED="1581954734541">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="MapReduce implementation w/ combine" ID="ID_411207326" CREATED="1581954702430" MODIFIED="1581954756636">
+<hook URI="img/map-reduce-design/mapreduce-word-counter-example-2.png" SIZE="0.63559324" NAME="ExternalObject"/>
+</node>
+</node>
+</node>
+<node TEXT="" ID="ID_1354613327" CREATED="1581954403476" MODIFIED="1581954403476">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="Divide &amp; Conquer model" ID="ID_146222180" CREATED="1581953948271" MODIFIED="1581954089196"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Split data into manageable amounts to work on them effectively
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Automatic parallelism" ID="ID_1713482916" CREATED="1581954102274" MODIFIED="1581954106587"/>
+<node TEXT="Distributed data storage &amp; processing" ID="ID_1378481132" CREATED="1581954107195" MODIFIED="1581955177803"/>
+</node>
+<node TEXT="" ID="ID_1032680670" CREATED="1581954403475" MODIFIED="1581954403475">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="Implementation-agnostic" ID="ID_923707389" CREATED="1581954174251" MODIFIED="1581954246624"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      MapReduce aims for engineers to not need to understand the underlying implementation details
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="" ID="ID_1654486743" CREATED="1581956160424" MODIFIED="1581956160425">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="Steps" ID="ID_1013694234" CREATED="1581954980289" MODIFIED="1581955750266">
+<node TEXT="" ID="ID_261240837" CREATED="1581957742226" MODIFIED="1581957742227">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="" ID="ID_166752165" CREATED="1581958611977" MODIFIED="1581958611978">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="Mapping" ID="ID_216011394" CREATED="1581954982545" MODIFIED="1581955152732"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Split data is passed onto mapping function to produce output values
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Reducing" ID="ID_468298275" CREATED="1581954985457" MODIFIED="1581955235938"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Summarise the aggregate of the mapping/shuffling outputs
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="" ID="ID_719925108" CREATED="1581958611972" MODIFIED="1581958611977">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="Combining" ID="ID_1665083750" CREATED="1581955246083" MODIFIED="1581955300466"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Reducing that runs on the mapper server, to take the workload of the final reducer
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Partitioning" ID="ID_441834162" CREATED="1581955744136" MODIFIED="1581956017928"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Translating &lt;key, value&gt; pairs from mappers into smaller sets to feed into reducers
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="" ID="ID_304498629" CREATED="1581957742224" MODIFIED="1581957742226">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="Shuffling" ID="ID_1501067260" CREATED="1581954989960" MODIFIED="1581957595007"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Consolidate the relevant map outputs by allocating them to the appropriate reducer
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Map side" FOLDED="true" ID="ID_538262070" CREATED="1581957753063" MODIFIED="1581957895314">
+<hook URI="img/map-reduce-design/shuffling-map-side.png" SIZE="0.65502185" NAME="ExternalObject"/>
+<node TEXT="" ID="ID_1768406114" CREATED="1581958447201" MODIFIED="1581958447202">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="Circular buffer is used" ID="ID_61215729" CREATED="1581958028650" MODIFIED="1581958060362"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Buffer spills into disk when a threshold is met
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Default configuration" ID="ID_1964542567" CREATED="1581958076884" MODIFIED="1581958103074"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      100MB buffer with a 80% threshold
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="Used for input/output efficiency" ID="ID_1279686910" CREATED="1581958268328" MODIFIED="1581958281703"/>
+</node>
+<node TEXT="" ID="ID_52382097" CREATED="1581958447200" MODIFIED="1581958447201">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="" ID="ID_1148394377" CREATED="1581958454865" MODIFIED="1581958454865">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="Spill files" ID="ID_1215977387" CREATED="1581958180173" MODIFIED="1581958339591">
+<node TEXT="Become partitioned and sorted" ID="ID_326706493" CREATED="1581958339926" MODIFIED="1581958341770"/>
+<node TEXT="Several will spawn before map phases finishes" ID="ID_1717674419" CREATED="1581958342485" MODIFIED="1581958419418"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Partitions of all the spill files merge at the final step
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="" ID="ID_1068467906" CREATED="1581958454863" MODIFIED="1581958454864">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="Partitions" ID="ID_7190296" CREATED="1581958432138" MODIFIED="1581958501174"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Available to be fetched by reducers, via HTTP
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Reduce side" FOLDED="true" ID="ID_1871011400" CREATED="1581957756393" MODIFIED="1581957884327">
+<hook URI="img/map-reduce-design/shuffling-reduce-side.png" SIZE="0.65502185" NAME="ExternalObject"/>
+<node TEXT="" ID="ID_923548445" CREATED="1581958694572" MODIFIED="1581958694572">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="Fetch partitions from all related map task nodes" ID="ID_1113220839" CREATED="1581958540167" MODIFIED="1581958549996">
+<node TEXT="Asynchronous copying" ID="ID_1982598386" CREATED="1581958575200" MODIFIED="1581958597413"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The JobTracker is periodically asked for the location of map outputs
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="" ID="ID_1300441476" CREATED="1581958694570" MODIFIED="1581958694571">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="" ID="ID_1719353214" CREATED="1581958971086" MODIFIED="1581958971086">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="Partition data is merged &amp; sorted" ID="ID_1279156823" CREATED="1581958694572" MODIFIED="1581958964784">
+<node TEXT="Fetched partition data is copied to an in-memory buffer" ID="ID_781278585" CREATED="1581958720422" MODIFIED="1581958912466"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Spilled to disk if the buffer becomes too full, or a set number of partitions have been fetched
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="On-disk copies are merged periodically" ID="ID_108884893" CREATED="1581959004062" MODIFIED="1581959386097"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Merging rounds determined by a merge factor
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="" ID="ID_856327738" CREATED="1581958971085" MODIFIED="1581958971085">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="Saved on local disk" ID="ID_377202752" CREATED="1581958971086" MODIFIED="1581958976036"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Stragglers" FOLDED="true" ID="ID_380059690" CREATED="1581959421745" MODIFIED="1581959440264"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      A mapper or reducer that takes a long time
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Possible reasons" ID="ID_1679117539" CREATED="1581959442701" MODIFIED="1581959461521">
+<node TEXT="Hardware degradation" ID="ID_1881542890" CREATED="1581959447398" MODIFIED="1581959450850"/>
+<node TEXT="Software mis-configuration" ID="ID_523727748" CREATED="1581959451141" MODIFIED="1581959456117"/>
+<node TEXT="Bugs" ID="ID_1830173979" CREATED="1581959456502" MODIFIED="1581959457546"/>
+</node>
+<node TEXT="Speculative execution" ID="ID_959885745" CREATED="1581959483484" MODIFIED="1581959564900">
+<node TEXT="" ID="ID_1066530893" CREATED="1581959575531" MODIFIED="1581959575532">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node ID="ID_318191678" CREATED="1581959562580" MODIFIED="1581959585170"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      JobTracker estimates the slow-running tasks
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      i.e. will be much slower than the average execution time
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="" ID="ID_396244885" CREATED="1581959575530" MODIFIED="1581959575531">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="Speculative task" ID="ID_484075661" CREATED="1581959575532" MODIFIED="1581959609576"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Launched by JobTracker as an equivalent back-up task
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="" ID="ID_1061989829" CREATED="1581956160423" MODIFIED="1581956160424">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="" ID="ID_1692252306" CREATED="1581956516266" MODIFIED="1581956516267">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="Single reducer" ID="ID_862542989" CREATED="1581956160425" MODIFIED="1581957646908">
+<hook URI="img/map-reduce-design/reducer-single.png" SIZE="0.53428316" NAME="ExternalObject"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Does not involve partitioning
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="" ID="ID_863267423" CREATED="1581956516265" MODIFIED="1581956516266">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="Multiple reducers" ID="ID_1171440804" CREATED="1581956516267" MODIFIED="1581957965980">
+<hook URI="img/map-reduce-design/reducer-multiple.png" SIZE="0.53428316" NAME="ExternalObject"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Involves shuffling, due to having multiple reducers
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="YARN" POSITION="right" ID="ID_1622069428" CREATED="1581959715569" MODIFIED="1581964706977">
+<edge COLOR="#7c7c00"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Resource management system
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="" ID="ID_467569626" CREATED="1581960183847" MODIFIED="1581960183848">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="MapReduce 1.0 Problems" ID="ID_493588180" CREATED="1581959834606" MODIFIED="1581959838821">
+<node TEXT="JobTracker problems" FOLDED="true" ID="ID_110260715" CREATED="1581959856430" MODIFIED="1581964770628">
+<node TEXT="Performance bottleneck" ID="ID_898644150" CREATED="1581959840312" MODIFIED="1581959881944"/>
+<node TEXT="Single-point of failure" ID="ID_868394152" CREATED="1581959869107" MODIFIED="1581959873484"/>
+</node>
+<node TEXT="Only supports MapReduce" FOLDED="true" ID="ID_1365388842" CREATED="1581959886429" MODIFIED="1581964798267"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Not effective for all tasks
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Unbalanced resource utilisation" ID="ID_1533854381" CREATED="1581959955677" MODIFIED="1581960170382"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      MapReduce works well on batch jobs that typically run at night
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<hook URI="img/yarn/hadoop-util.png" SIZE="1.0" NAME="ExternalObject"/>
+</node>
+</node>
+</node>
+<node TEXT="" ID="ID_1807871940" CREATED="1581960183844" MODIFIED="1581960183847">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="" ID="ID_788308458" CREATED="1581960270268" MODIFIED="1581960270268">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="YARN effectively handles resources" ID="ID_388300610" CREATED="1581960183849" MODIFIED="1581960231266"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Acts as a generalised intermediate layer for resource scheduling
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="" ID="ID_935601974" CREATED="1581960270266" MODIFIED="1581960270267">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="" ID="ID_676768678" CREATED="1581960329474" MODIFIED="1581960329475">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="Hadoop rack" ID="ID_1159753950" CREATED="1581960270268" MODIFIED="1581960301668">
+<hook URI="img/yarn/hadoop-rack.png" SIZE="1.0" NAME="ExternalObject"/>
+</node>
+<node TEXT="" ID="ID_256784855" CREATED="1581960423520" MODIFIED="1581960423521">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="Hadoop utilisation" ID="ID_1499301187" CREATED="1581960370683" MODIFIED="1581960388812">
+<hook URI="img/yarn/hadoop-util.png" SIZE="1.0" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="" ID="ID_1248216263" CREATED="1581960432904" MODIFIED="1581960432905">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="Spark rack" ID="ID_931536665" CREATED="1581960283115" MODIFIED="1581960312427">
+<hook URI="img/yarn/spark-rack.png" SIZE="1.0" NAME="ExternalObject"/>
+</node>
+<node TEXT="" ID="ID_374008938" CREATED="1581960432903" MODIFIED="1581960432904">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="Spark utilisation" ID="ID_539129220" CREATED="1581960390985" MODIFIED="1581960401786">
+<hook URI="img/yarn/spark-util.png" SIZE="1.0" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="" ID="ID_1435718200" CREATED="1581960479368" MODIFIED="1581960479368">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="Storm rack" ID="ID_193975238" CREATED="1581960284893" MODIFIED="1581960320789">
+<hook URI="img/yarn/storm-rack.png" SIZE="1.0" NAME="ExternalObject"/>
+</node>
+<node TEXT="" ID="ID_1535560998" CREATED="1581960479366" MODIFIED="1581960479368">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="Storm utilisation" ID="ID_1974071039" CREATED="1581960403785" MODIFIED="1581960418329">
+<hook URI="img/yarn/storm-util.png" SIZE="1.0" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="" ID="ID_359420617" CREATED="1581960329473" MODIFIED="1581960329474">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="" ID="ID_605811552" CREATED="1581960526826" MODIFIED="1581960526826">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="Becomes a shared cluster" ID="ID_404601257" CREATED="1581960329475" MODIFIED="1581960360116">
+<hook URI="img/yarn/shared-cluster.png" SIZE="1.0" NAME="ExternalObject"/>
+</node>
+<node TEXT="" ID="ID_25614534" CREATED="1581960526821" MODIFIED="1581960526826">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="More optimal utilisation" ID="ID_755176048" CREATED="1581960489984" MODIFIED="1581960510240">
+<hook URI="img/yarn/shared-util.png" SIZE="1.1953181" NAME="ExternalObject"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="" ID="ID_1286134660" CREATED="1581965248174" MODIFIED="1581965248175">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="Concepts" ID="ID_767905612" CREATED="1581960609214" MODIFIED="1581960620526">
+<node TEXT="" ID="ID_595281297" CREATED="1581963790436" MODIFIED="1581963790437">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="Resource Manager" FOLDED="true" ID="ID_814377218" CREATED="1581960622542" MODIFIED="1581964917261"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Similar to how JobTracker does resource management
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Manages cluster resources" FOLDED="true" ID="ID_40375353" CREATED="1581963663367" MODIFIED="1581963669741">
+<node TEXT="RAM" ID="ID_1057160775" CREATED="1581963670193" MODIFIED="1581963671482"/>
+<node TEXT="CPU" ID="ID_1943821243" CREATED="1581963671815" MODIFIED="1581963673831"/>
+<node TEXT="Network bandwidth" ID="ID_499314056" CREATED="1581963673991" MODIFIED="1581963677679"/>
+</node>
+<node TEXT="Processes client requests" ID="ID_783147231" CREATED="1581963683879" MODIFIED="1581963689454"/>
+<node TEXT="Monitors Application Masters" ID="ID_255089147" CREATED="1581963689740" MODIFIED="1581963703564"/>
+<node ID="ID_130040827" CREATED="1581963706131" MODIFIED="1581963821227"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Monitors <b>Node Manager</b>&#160;status
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="" ID="ID_1082029746" CREATED="1581963790435" MODIFIED="1581963790436">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="One per cluster" ID="ID_1705323613" CREATED="1581963607761" MODIFIED="1581963614005"/>
+</node>
+<node TEXT="" ID="ID_263599334" CREATED="1581964030583" MODIFIED="1581964030583">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="Node Manager" FOLDED="true" ID="ID_83899014" CREATED="1581960626543" MODIFIED="1581964925886"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Similar to TaskTracker
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Manages resources and tasks on nodes" ID="ID_769971889" CREATED="1581963797788" MODIFIED="1581963806388"/>
+<node TEXT="Reports node status to Resource Manager" ID="ID_1051612618" CREATED="1581963806621" MODIFIED="1581963813274"/>
+<node TEXT="Processes commands from Resource Manager and Application Masters" ID="ID_25474885" CREATED="1581964016793" MODIFIED="1581964028249"/>
+</node>
+<node TEXT="" ID="ID_902346890" CREATED="1581964030582" MODIFIED="1581964030583">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="One per node" ID="ID_883672960" CREATED="1581964030583" MODIFIED="1581964032776"/>
+</node>
+<node TEXT="" ID="ID_402977180" CREATED="1581964117952" MODIFIED="1581964117952">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="Application Master" FOLDED="true" ID="ID_460593639" CREATED="1581960631965" MODIFIED="1581964934447"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Similar to how JobTracker does job management
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Splits data" ID="ID_1626762658" CREATED="1581964041325" MODIFIED="1581964045543"/>
+<node TEXT="Requests resource from Resource Manager" ID="ID_1592176271" CREATED="1581964045935" MODIFIED="1581964062391"/>
+<node TEXT="Allocates resources to inner tasks" ID="ID_1090368987" CREATED="1581964063211" MODIFIED="1581964070588"/>
+<node TEXT="Collects task statuses" ID="ID_606480221" CREATED="1581964074863" MODIFIED="1581964113897"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Monitors for fault tolerance
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="" ID="ID_864868826" CREATED="1581964117949" MODIFIED="1581964117952">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="One per application" ID="ID_321956088" CREATED="1581964117952" MODIFIED="1581964137250"/>
+</node>
+<node TEXT="Container" FOLDED="true" ID="ID_970080793" CREATED="1581960634718" MODIFIED="1581964207014"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Abstraction of job execution environment
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="Describes..." FOLDED="true" ID="ID_1656119686" CREATED="1581964207645" MODIFIED="1581964225358">
+<node TEXT="Resources for running tasks" ID="ID_1763174897" CREATED="1581964215717" MODIFIED="1581964222397"/>
+<node TEXT="Commands for task startup" ID="ID_1738409063" CREATED="1581964228133" MODIFIED="1581964231210"/>
+<node TEXT="Environment for task execution" ID="ID_985448106" CREATED="1581964234332" MODIFIED="1581964240188"/>
+</node>
+</node>
+<node TEXT="" ID="ID_149569090" CREATED="1581964533654" MODIFIED="1581964533655">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="Two-Level Resource Scheduling" FOLDED="true" ID="ID_137592490" CREATED="1581960636373" MODIFIED="1581964529135"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Method to efficiently perform scheduling
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="1. Resource Manager to Application Master" ID="ID_1749525171" CREATED="1581964379921" MODIFIED="1581964401864"/>
+<node TEXT="2. Application Master to Node Managers" ID="ID_987360599" CREATED="1581964403289" MODIFIED="1581964421035"/>
+</node>
+<node TEXT="" ID="ID_741800198" CREATED="1581964533651" MODIFIED="1581964533654">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="Reservation-based resource scheduling" ID="ID_242296592" CREATED="1581964533655" MODIFIED="1581964688562"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Resources are reserved for processes, to avoid them running out of memory
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="Versatile support" FOLDED="true" ID="ID_20665833" CREATED="1581965220592" MODIFIED="1581965432550"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Beyond MapReduce, other frameworks can meet different requirements
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="MapReduce 2.0" ID="ID_928855033" CREATED="1581965271254" MODIFIED="1581965274178"/>
+<node TEXT="Spark" ID="ID_222460433" CREATED="1581965275318" MODIFIED="1581965276157"/>
+<node TEXT="Spark" ID="ID_590562562" CREATED="1581965281223" MODIFIED="1581965282279"/>
+<node TEXT="Tez" ID="ID_470371680" CREATED="1581965282614" MODIFIED="1581965283699"/>
+<node TEXT="MPI" ID="ID_773266946" CREATED="1581965284087" MODIFIED="1581965285954"/>
+</node>
+</node>
+<node TEXT="" ID="ID_486837499" CREATED="1581965248173" MODIFIED="1581965248174">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="YARN&apos;s architecture" ID="ID_473620278" CREATED="1581963960136" MODIFIED="1581964304296">
+<hook URI="img/yarn/architecture.png" SIZE="0.46875" NAME="ExternalObject"/>
+</node>
+</node>
+</node>
+<node TEXT="" POSITION="right" ID="ID_624227114" CREATED="1581965009666" MODIFIED="1581965009668">
+<edge COLOR="#ff0000"/>
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="Clarifications" FOLDED="true" ID="ID_750667112" CREATED="1581965009669" MODIFIED="1581965085899">
+<node TEXT="" ID="ID_1513071669" CREATED="1581965124417" MODIFIED="1581965124417">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="MapReduce 1.0 vs 2.0" ID="ID_499141950" CREATED="1581965017948" MODIFIED="1581965040432">
+<node TEXT="MapReduce 1.0" ID="ID_745931488" CREATED="1581965042996" MODIFIED="1581965062981"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Standalone system
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="MapReduce 2.0 vs YARN" ID="ID_12438319" CREATED="1581965076035" MODIFIED="1581965081835">
+<node TEXT="YARN" ID="ID_1922270199" CREATED="1581965092646" MODIFIED="1581965101676"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Resource management
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="" ID="ID_722891234" CREATED="1581965124416" MODIFIED="1581965124417">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="MapReduce 2.0" ID="ID_286607539" CREATED="1581965063884" MODIFIED="1581965074572"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Computing framework ontop of YARN
+    </p>
+  </body>
+</html>
+
+</richcontent>
 </node>
 </node>
 </node>
