@@ -43,3 +43,9 @@ Once connections are made
 **** TODO Hadoop user examples
      Primarily Yahoo
 **** TODO GFS motivation
+**** TODO p17 DataNote "Client" section
+     On that slide he didn't mentioon client stuff... probably something going to be expanded on soon.
+**** TODO Tracker stuff
+     Leave it til later when I can make a comprehensive Hadoop mindmap
+**** TODO Programming HDFS
+     Is this necessary for the exam, or just course work?
