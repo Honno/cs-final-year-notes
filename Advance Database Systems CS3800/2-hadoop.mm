@@ -2,8 +2,8 @@
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Hadoop" FOLDED="false" ID="ID_230336575" CREATED="1581156673362" MODIFIED="1581156820386" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="0.468">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false" show_note_icons="true" show_icon_for_attributes="true"/>
+<hook NAME="MapStyle" zoom="0.754">
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" show_note_icons="true" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -63,7 +63,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="7" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="8" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="HEADINGS"/>
 <node TEXT="Architecture" POSITION="right" ID="ID_1614943076" CREATED="1581157511083" MODIFIED="1581932819856"><richcontent TYPE="DETAILS">
 
@@ -107,7 +107,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="One per cluster" ID="ID_545499650" CREATED="1581936425370" MODIFIED="1581936427825"/>
 <node TEXT="Manages filesystem namespace" ID="ID_471136386" CREATED="1581935119715" MODIFIED="1581935183939"><richcontent TYPE="DETAILS">
@@ -122,7 +121,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="fsimage" ID="ID_1401111962" CREATED="1581935128910" MODIFIED="1581935138147"><richcontent TYPE="DETAILS">
 
@@ -136,7 +134,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="fsedits" ID="ID_1209189197" CREATED="1581935139138" MODIFIED="1581935143286"><richcontent TYPE="DETAILS">
@@ -151,7 +148,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -167,7 +163,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Retrieved from DataNodes at startup" ID="ID_1684520652" CREATED="1581935368672" MODIFIED="1581936264732"/>
 </node>
@@ -187,7 +182,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="One per cluster" ID="ID_1249330279" CREATED="1581936425370" MODIFIED="1581936427825"/>
 <node TEXT="Merges namespace image and edit logs" ID="ID_1621243269" CREATED="1581936209695" MODIFIED="1581936731748"><richcontent TYPE="DETAILS">
@@ -202,7 +196,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Runs on seperate machine from Active NameNode" ID="ID_666518285" CREATED="1581936242587" MODIFIED="1581936315577"><richcontent TYPE="DETAILS">
@@ -217,7 +210,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -251,7 +243,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="One per slave server" ID="ID_1974020567" CREATED="1581936439327" MODIFIED="1581936444313"/>
 <node TEXT="Acts as the chunkserver" ID="ID_1117500902" CREATED="1581936452497" MODIFIED="1581936473237"><richcontent TYPE="DETAILS">
@@ -266,7 +257,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="From Google&apos;s GFS paper" ID="ID_695386834" CREATED="1581936780218" MODIFIED="1581936839768"/>
 </node>
@@ -282,7 +272,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="From Google&apos;s MapReduce paper" ID="ID_1044270999" CREATED="1581936814233" MODIFIED="1581936842658"/>
 </node>
@@ -298,7 +287,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Reports to NameNode the list of blocks it stores" ID="ID_1176258289" CREATED="1581936700426" MODIFIED="1581936741379"><richcontent TYPE="DETAILS">
@@ -313,7 +301,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -378,7 +365,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Purpose" FOLDED="true" ID="ID_369322556" CREATED="1581934407323" MODIFIED="1581934514580">
 <node TEXT="Data management" ID="ID_823805769" CREATED="1581934442659" MODIFIED="1581934483753"><richcontent TYPE="DETAILS">
@@ -393,7 +379,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Seperated metadata" ID="ID_1215224025" CREATED="1581934485899" MODIFIED="1581934769011"><richcontent TYPE="DETAILS">
@@ -408,7 +393,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Blocks are just chunks of data" ID="ID_1161951563" CREATED="1581934737458" MODIFIED="1581934746251"><richcontent TYPE="DETAILS">
 
@@ -422,7 +406,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -453,14 +436,13 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
 <node TEXT="" ID="ID_118869162" CREATED="1581934534104" MODIFIED="1581934534106">
 <hook NAME="SummaryNode"/>
 <hook NAME="AlwaysUnfoldedNode"/>
-<node TEXT="Data transmission over disk seek" ID="ID_1391912266" CREATED="1581932982164" MODIFIED="1581934341449">
+<node TEXT="Data transmission over disk seek" FOLDED="true" ID="ID_1391912266" CREATED="1581932982164" MODIFIED="1581934341449">
 <node TEXT="Large files will have huge numbers of blocks" ID="ID_1596070975" CREATED="1581933368060" MODIFIED="1581934367642"><richcontent TYPE="DETAILS">
 
 <html>
@@ -473,7 +455,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -536,7 +517,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -568,7 +548,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="MapReduce" ID="ID_1163994726" CREATED="1581156835106" MODIFIED="1581156967147"><richcontent TYPE="DETAILS">
@@ -1101,7 +1080,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="DETAILS">
 
@@ -1115,7 +1093,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1926620416" CREATED="1581937842972" MODIFIED="1581938196885"><richcontent TYPE="NODE">
@@ -1130,7 +1107,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="DETAILS">
 
@@ -1144,7 +1120,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node ID="ID_1209394443" CREATED="1581937844593" MODIFIED="1581938206700"><richcontent TYPE="NODE">
@@ -1159,7 +1134,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="DETAILS">
 
@@ -1173,7 +1147,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="" ID="ID_692534219" CREATED="1581937933032" MODIFIED="1581937933033">
@@ -1193,7 +1166,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="DETAILS">
 
@@ -1207,7 +1179,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1234,7 +1205,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Excessive metadata storage" ID="ID_1021960184" CREATED="1581938311049" MODIFIED="1581939050005"><richcontent TYPE="DETAILS">
 
@@ -1248,7 +1218,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Limited to storage capacity of NameNode" ID="ID_1941426539" CREATED="1581938703784" MODIFIED="1581938768749"><richcontent TYPE="DETAILS">
 
@@ -1262,7 +1231,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1281,7 +1249,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="" ID="ID_1060270617" CREATED="1581938949866" MODIFIED="1581938949867">
@@ -1296,6 +1263,252 @@
 <hook NAME="SummaryNode"/>
 <hook NAME="AlwaysUnfoldedNode"/>
 <node TEXT="10 x 100MB preferred" ID="ID_984242219" CREATED="1581939199650" MODIFIED="1581939223376"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Map Reduce" POSITION="right" ID="ID_21597518" CREATED="1581942371418" MODIFIED="1581942375333">
+<edge COLOR="#007c00"/>
+<node TEXT="Design" ID="ID_1240437249" CREATED="1581942473917" MODIFIED="1581942474838">
+<node TEXT="" ID="ID_1816008725" CREATED="1581944883163" MODIFIED="1581944883163">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="" ID="ID_1107291582" CREATED="1581944884531" MODIFIED="1581944884532">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="Analogy" ID="ID_1135526444" CREATED="1581943291068" MODIFIED="1581944876775"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Counting word occurrences from a data collection
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="" ID="ID_1584545062" CREATED="1581944943975" MODIFIED="1581944943976">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="Basic program" ID="ID_1463826807" CREATED="1581944919985" MODIFIED="1581945025080">
+<hook URI="img/map-reduce-design/word-counter-example-1.png" SIZE="0.6741573" NAME="ExternalObject"/>
+</node>
+<node TEXT="" ID="ID_1761076466" CREATED="1581944943974" MODIFIED="1581944943975">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="" ID="ID_217492989" CREATED="1581944948163" MODIFIED="1581944948164">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="Multi-threading" ID="ID_1282491760" CREATED="1581944943976" MODIFIED="1581945042734">
+<hook URI="img/map-reduce-design/word-counter-example-2.png" SIZE="0.6741573" NAME="ExternalObject"/>
+<node TEXT="Shared data is locked" ID="ID_1407336303" CREATED="1581945044781" MODIFIED="1581945391608"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Ensure threads don't overwrite each-other
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="" ID="ID_1459181899" CREATED="1581944948159" MODIFIED="1581944948162">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="" ID="ID_1787567517" CREATED="1581946626061" MODIFIED="1581946626062">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="Separated parsers and counters" ID="ID_1683908919" CREATED="1581944948165" MODIFIED="1581945485227">
+<hook URI="img/map-reduce-design/word-counter-example-3.png" SIZE="0.6741573" NAME="ExternalObject"/>
+<node TEXT="" ID="ID_216847776" CREATED="1581945911955" MODIFIED="1581945911955">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="Work on different sets of words" ID="ID_1474791041" CREATED="1581945500703" MODIFIED="1581945898692"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      e.g. words that start with A-N, O-T and U-Z
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="WorldList stores intermediate results" ID="ID_80757440" CREATED="1581945442976" MODIFIED="1581945496367"/>
+<node TEXT="" ID="ID_1859991038" CREATED="1581945911954" MODIFIED="1581945911955">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="Written to count store" ID="ID_252415091" CREATED="1581945911955" MODIFIED="1581946430386"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Once counter thread finishes
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="No lock required" ID="ID_215907449" CREATED="1581946362702" MODIFIED="1581946617997"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      As separated sets of words are being worked on
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="" ID="ID_1999659153" CREATED="1581946626053" MODIFIED="1581946626061">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="Managing large-scale distributed data" ID="ID_1765992565" CREATED="1581946626062" MODIFIED="1581947190043">
+<hook URI="img/map-reduce-design/word-counter-example-4.png" SIZE="0.6315789" NAME="ExternalObject"/>
+<node TEXT="Collection is divided up" ID="ID_428627703" CREATED="1581946914064" MODIFIED="1581947115628">
+<hook URI="img/map-reduce-design/word-counter-example-4-splits.png" SIZE="0.4686165" NAME="ExternalObject"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Passed through the same program logic (<i>not</i>&#160;the same software instances)
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="MapReduce" ID="ID_1047049475" CREATED="1581947130355" MODIFIED="1581947962128"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Parallel word counter
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="\latex $\mathbf{map}$: $input$ \rightarrow $&lt;word, 1&gt;$ pairs" ID="ID_824478681" CREATED="1581947204932" MODIFIED="1581947940883"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Schedule parallel parse tasks
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="\latex $input$" ID="ID_1297775233" CREATED="1581947817786" MODIFIED="1581947892828"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      From <i>DataSplit</i>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="\latex $&lt;word, 1&gt;$ pairs" ID="ID_720484709" CREATED="1581947817786" MODIFIED="1581947889348"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      To <i>WordList</i>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="\latex $\mathbf{reduce}$: $&lt;word, 1&gt;$ pairs \rightarrow $&lt;word, count&gt;$ pairs" ID="ID_761320647" CREATED="1581947204932" MODIFIED="1581947946841"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Schedule parallel count tasks
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="\latex $&lt;word, 1&gt;$ pairs" ID="ID_1613437048" CREATED="1581947817786" MODIFIED="1581947902758"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      From <i>WordList</i>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="\latex $&lt;word, count&gt;$ pairs" ID="ID_1627563637" CREATED="1581947907559" MODIFIED="1581947925735"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      To <i>ResultTable</i>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
 </node>
 </node>
 </node>

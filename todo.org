@@ -6,4 +6,6 @@
 ** TODO table cells not wrapping
 *** TODO Clear table hardcoded styling afterwards
 ** TODO Latex font size
+** TODO Add a margin for the images?
+   So annoying that they touch right up with other nodes
   
