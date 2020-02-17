@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Data" FOLDED="false" ID="ID_590376877" CREATED="1581178589335" MODIFIED="1581245987867" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="0.386">
+<hook NAME="MapStyle" zoom="0.703">
     <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" show_note_icons="true" fit_to_viewport="false"/>
 
 <map_styles>
@@ -63,7 +63,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="20" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="24" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="HEADINGS"/>
 <node TEXT="" POSITION="right" ID="ID_310036177" CREATED="1581248118670" MODIFIED="1581248118671">
 <edge COLOR="#00007c"/>
@@ -109,7 +109,7 @@
 <edge COLOR="#007c00"/>
 <hook NAME="SummaryNode"/>
 <hook NAME="AlwaysUnfoldedNode"/>
-<node TEXT="Attributes" ID="ID_412322811" CREATED="1581178730715" MODIFIED="1581178852884"><richcontent TYPE="DETAILS">
+<node TEXT="Attributes" FOLDED="true" ID="ID_412322811" CREATED="1581178730715" MODIFIED="1581178852884"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -132,7 +132,7 @@
 <edge COLOR="#7c0000"/>
 <hook NAME="SummaryNode"/>
 <hook NAME="AlwaysUnfoldedNode"/>
-<node TEXT="Attribute Values" ID="ID_966634439" CREATED="1581178978935" MODIFIED="1581182328923"><richcontent TYPE="DETAILS">
+<node TEXT="Attribute Values" FOLDED="true" ID="ID_966634439" CREATED="1581178978935" MODIFIED="1581182328923"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -198,7 +198,7 @@
 <node TEXT="" ID="ID_1513354427" CREATED="1581182714734" MODIFIED="1581182714735">
 <hook NAME="FirstGroupNode"/>
 </node>
-<node TEXT="Attribute Types" ID="ID_1933131047" CREATED="1581179030036" MODIFIED="1581182376352"><richcontent TYPE="DETAILS">
+<node TEXT="Attribute Types" FOLDED="true" ID="ID_1933131047" CREATED="1581179030036" MODIFIED="1581182376352"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -2563,7 +2563,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="\latex Principal Component $PCA_2$" ID="ID_1586178654" CREATED="1581844707407" MODIFIED="1581844786789"><richcontent TYPE="DETAILS">
@@ -2578,7 +2577,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2589,7 +2587,7 @@
 <node TEXT="" ID="ID_1094830745" CREATED="1581848380683" MODIFIED="1581848380684">
 <hook NAME="FirstGroupNode"/>
 </node>
-<node TEXT="PCA on the Iris dataset" ID="ID_1738514499" CREATED="1581844874964" MODIFIED="1581848247129"><richcontent TYPE="DETAILS">
+<node TEXT="PCA on the Iris dataset" FOLDED="true" ID="ID_1738514499" CREATED="1581844874964" MODIFIED="1581848247129"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -2700,7 +2698,6 @@
     </table>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Property Variance" LOCALIZED_STYLE_REF="defaultstyle.note" ID="ID_1387898157" CREATED="1581851610954" MODIFIED="1581851849120"><richcontent TYPE="DETAILS">
 
@@ -2714,14 +2711,13 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
 <node TEXT="" ID="ID_1718605936" CREATED="1581848380681" MODIFIED="1581848380683">
 <hook NAME="SummaryNode"/>
 <hook NAME="AlwaysUnfoldedNode"/>
-<node TEXT="\latex $PC_1$ \&amp; $PC_2$" ID="ID_1359181461" CREATED="1581848213136" MODIFIED="1581848425388"><richcontent TYPE="DETAILS">
+<node TEXT="\latex $PC_1$ \&amp; $PC_2$" FOLDED="true" ID="ID_1359181461" CREATED="1581848213136" MODIFIED="1581848425388"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -2733,7 +2729,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <hook URI="img/pca-iris-example.png" SIZE="0.7979664" NAME="ExternalObject"/>
 <node TEXT="Contain most information in the data" ID="ID_1743116615" CREATED="1581848822426" MODIFIED="1581848871202"><richcontent TYPE="DETAILS">
@@ -2748,7 +2743,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Good for pure classification" ID="ID_1175803687" CREATED="1581848792417" MODIFIED="1581848924899"/>
 <node TEXT="Interpretability problems" LOCALIZED_STYLE_REF="styles.important" ID="ID_455534128" CREATED="1581848798620" MODIFIED="1581851569374"><richcontent TYPE="DETAILS">
@@ -2763,7 +2757,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Can cause unintended side effects" ID="ID_1582769491" CREATED="1581851573560" MODIFIED="1581851755145"><richcontent TYPE="DETAILS">
 
@@ -2777,7 +2770,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2802,7 +2794,7 @@
 <node TEXT="" ID="ID_1418278376" CREATED="1581849265326" MODIFIED="1581849265327">
 <hook NAME="FirstGroupNode"/>
 </node>
-<node TEXT="Attribute Transformation" ID="ID_1628015268" CREATED="1581253246110" MODIFIED="1581848991369"><richcontent TYPE="DETAILS">
+<node TEXT="Attribute Transformation" FOLDED="true" ID="ID_1628015268" CREATED="1581253246110" MODIFIED="1581848991369"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -2814,7 +2806,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="" ID="ID_1875813587" CREATED="1581850548567" MODIFIED="1581850548568">
 <hook NAME="FirstGroupNode"/>
@@ -2831,7 +2822,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="\latex $x&apos; = {x - \bar{x} \over s_x}$" ID="ID_139968960" CREATED="1581850310235" MODIFIED="1581850546429">
 <node TEXT="\latex $s_x$" ID="ID_538581918" CREATED="1581850450163" MODIFIED="1581850467597"><richcontent TYPE="DETAILS">
@@ -2846,7 +2836,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2863,7 +2852,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="\latex $x&apos; = \frac{x - x_{\min}}{x_{\max}-x_{\min}}$" ID="ID_755475536" CREATED="1581849493190" MODIFIED="1581850546431"><richcontent TYPE="DETAILS">
 
@@ -2877,7 +2865,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2896,7 +2883,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2904,7 +2890,7 @@
 <node TEXT="" ID="ID_397708270" CREATED="1581849265326" MODIFIED="1581849265326">
 <hook NAME="SummaryNode"/>
 <hook NAME="AlwaysUnfoldedNode"/>
-<node TEXT="Purpose" ID="ID_378726329" CREATED="1581851046018" MODIFIED="1581851406410">
+<node TEXT="Purpose" FOLDED="true" ID="ID_378726329" CREATED="1581851046018" MODIFIED="1581851406410">
 <node TEXT="Visualisation" ID="ID_1655290313" CREATED="1581851052662" MODIFIED="1581851100478"><richcontent TYPE="DETAILS">
 
 <html>
@@ -2917,7 +2903,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Reduce data redundancy" ID="ID_417491181" CREATED="1581851215211" MODIFIED="1581851392940"><richcontent TYPE="DETAILS">
@@ -2932,11 +2917,10 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
-<node TEXT="Considerations" ID="ID_440600449" CREATED="1581849265327" MODIFIED="1581850765975">
+<node TEXT="Considerations" FOLDED="true" ID="ID_440600449" CREATED="1581849265327" MODIFIED="1581850765975">
 <node TEXT="Clean data beforehand" ID="ID_1809184871" CREATED="1581850766571" MODIFIED="1581850829076"><richcontent TYPE="DETAILS">
 
 <html>
@@ -2949,7 +2933,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Use the same units" ID="ID_35449630" CREATED="1581850857106" MODIFIED="1581850999274"><richcontent TYPE="DETAILS">
@@ -2964,14 +2947,705 @@
     </p>
   </body>
 </html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="" POSITION="right" ID="ID_630587413" CREATED="1581856393576" MODIFIED="1581856393577">
+<edge COLOR="#7c7c00"/>
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="Similarity &amp; Dissimilarity" POSITION="right" ID="ID_263889927" CREATED="1581844160708" MODIFIED="1581856202728">
+<edge COLOR="#7c007c"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Proximity of two data objects
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Similarity" ID="ID_646149479" CREATED="1581856203284" MODIFIED="1581856281203"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Numerical measure of how alike two objects are
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Higher when objects are more alike" ID="ID_259033037" CREATED="1581856309640" MODIFIED="1581856345051"/>
+<node TEXT="Often using range [0,1]" ID="ID_1632179754" CREATED="1581856345792" MODIFIED="1581856358716"/>
+</node>
+<node TEXT="Dissimilarity" ID="ID_1946672843" CREATED="1581856210351" MODIFIED="1581856297036"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Numerical measure of how different are two objects
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Lower when objects are more alike" ID="ID_544244027" CREATED="1581856361328" MODIFIED="1581856367993"/>
+<node TEXT="Minimum dissimilarity is often 0" ID="ID_635516789" CREATED="1581856368353" MODIFIED="1581856380080"/>
+<node TEXT="Varying upper limit values" ID="ID_290494162" CREATED="1581856382023" MODIFIED="1581856387480"/>
+</node>
+</node>
+<node TEXT="" POSITION="right" ID="ID_49039454" CREATED="1581856393573" MODIFIED="1581856393576">
+<edge COLOR="#007c7c"/>
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="" ID="ID_1267702757" CREATED="1581857554478" MODIFIED="1581857554478">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="Measures" ID="ID_721933777" CREATED="1581856471654" MODIFIED="1581856994910">
+<node TEXT="" ID="ID_870275149" CREATED="1581857071065" MODIFIED="1581857071065">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="Euclidean Distance" FOLDED="true" ID="ID_547018138" CREATED="1581856393577" MODIFIED="1581856400896">
+<node TEXT="\latex $d(\mathbf{x},\mathbf{y}) = \left\| \mathbf{x} - \mathbf{y} \right\| =\sqrt{\sum_{i=1}^n (x_i - y_i)^2}$" ID="ID_1685434961" CREATED="1581856461910" MODIFIED="1581856753269">
+<node TEXT="\latex $n$" ID="ID_46134223" CREATED="1581856765193" MODIFIED="1581856789005"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Number of attributes
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="\latex $x_i$ \&amp; $y_i$" ID="ID_289490423" CREATED="1581856812094" MODIFIED="1581856878669"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      The <i>i</i>th value of x and y respectively
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="" ID="ID_1334444971" CREATED="1581857071063" MODIFIED="1581857071064">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="Only defined for interval and ratio variables" ID="ID_858775459" CREATED="1581856889664" MODIFIED="1581856905605"/>
+<node TEXT="Standardisation can be used when scales differ" ID="ID_313356534" CREATED="1581856908061" MODIFIED="1581856927305"/>
+</node>
+<node TEXT="" ID="ID_733158402" CREATED="1581856889659" MODIFIED="1581856889663">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="" ID="ID_594327338" CREATED="1581857124465" MODIFIED="1581857124466">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="Properties of distances" FOLDED="true" ID="ID_1328324460" CREATED="1581857082521" MODIFIED="1581857106587">
+<node TEXT="\latex $d(x,y) \ge 0$" ID="ID_1441657048" CREATED="1581857266222" MODIFIED="1581857372084"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Non-negativity axiom
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="\latex $d(x,y) = 0$, only if $x = y$" ID="ID_877645414" CREATED="1581857323390" MODIFIED="1581857455636"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Identity of indiscernibles
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="\latex $d(x,y)  = d(y,x) $" ID="ID_953140018" CREATED="1581857333405" MODIFIED="1581857406459"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Symmetry
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="\latex $d(x,y) \le d(x,z) + d(z, y)$" ID="ID_1335688463" CREATED="1581857340385" MODIFIED="1581857420275"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Triangle inequality
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="" ID="ID_585436529" CREATED="1581857124462" MODIFIED="1581857124465">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="Metric" ID="ID_888673202" CREATED="1581857124466" MODIFIED="1581857428217"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      A distance that satisfies all these properties
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="Binary Vectors" FOLDED="true" ID="ID_1166575401" CREATED="1581857507953" MODIFIED="1581858094470">
+<node TEXT="" ID="ID_522857712" CREATED="1581860358213" MODIFIED="1581860358213">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="Simple Matching Coefficient (SMC)" ID="ID_1707991917" CREATED="1581859414554" MODIFIED="1581859445162"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Proportion of matches
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="\latex $SMC = \frac{M_{00}+M_{11}}{M_{00}+M_{01}+M_{10}+M_{11}}" ID="ID_1116828539" CREATED="1581859939806" MODIFIED="1581859961754"/>
+</node>
+<node TEXT="Jaccard Similarity Coefficient" ID="ID_554261467" CREATED="1581859262035" MODIFIED="1581860355475"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Proportion of 11 matches, over single 1 occurrences
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="\latex $J = {M_{11} \over M_{01} + M_{10} + M_{11}}$" ID="ID_255076974" CREATED="1581860014692" MODIFIED="1581860023618"/>
+<node TEXT="Not interested in 00 matches" ID="ID_761768324" CREATED="1581860301025" MODIFIED="1581860897072"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Useful for some attribute sets
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="Amazon shopping baskets" ID="ID_1057709578" CREATED="1581860767012" MODIFIED="1581862651205"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Millions of possible items for basket, so enormous skew for 00 matches
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="" ID="ID_910255598" CREATED="1581860358211" MODIFIED="1581860358212">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="\latex $M_{ab}$" ID="ID_238071345" CREATED="1581860358214" MODIFIED="1581860399184"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Number of attributes
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="" ID="ID_32209405" CREATED="1581860673502" MODIFIED="1581860673508">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="\latex $x$ has value $a &#x2208; \{0,1\}$" ID="ID_929156240" CREATED="1581860547047" MODIFIED="1581860650440"/>
+<node TEXT="\latex $y$ has value $b &#x2208; \{0,1\}$" ID="ID_1521887227" CREATED="1581860547047" MODIFIED="1581860663480"/>
+<node TEXT="" ID="ID_406821039" CREATED="1581860673500" MODIFIED="1581860673502">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="\latex $x$ \&amp; $y$" ID="ID_180072461" CREATED="1581860450822" MODIFIED="1581860497227"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Two objects
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="" ID="ID_351438151" CREATED="1581862490624" MODIFIED="1581862490624">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="Cosine Similarity" FOLDED="true" ID="ID_1483766299" CREATED="1581861031345" MODIFIED="1581876588578">
+<node TEXT="\latex $sim(A,B) = \cos(\theta) = {\mathbf{A} \cdot \mathbf{B} \over \|\mathbf{A}\| \|\mathbf{B}\|}$" ID="ID_1927192982" CREATED="1581861337666" MODIFIED="1581862409505">
+<node TEXT="\latex $A$ \&amp; $B$" ID="ID_731778000" CREATED="1581861950254" MODIFIED="1581861975634"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Vectors of attributes
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="\latex \|\mathbf{x}\|" ID="ID_599220459" CREATED="1581862174878" MODIFIED="1581862300433"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Euclidean norm of vector, also referred to as length
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="" ID="ID_1484899449" CREATED="1581862490623" MODIFIED="1581862490624">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="Matching texts" FOLDED="true" ID="ID_1411724876" CREATED="1581862490624" MODIFIED="1581863410613"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Vectors are word matching counts
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="" ID="ID_987488134" CREATED="1581863276472" MODIFIED="1581863276472">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="Euclidean distances not too useful" ID="ID_1485710436" CREATED="1581862574952" MODIFIED="1581863418490"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Count values are skewed by the many common words between texts, e.g. &quot;and&quot; &amp; &quot;the&quot;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="Cosine interested in rarer terms" ID="ID_140747043" CREATED="1581862631760" MODIFIED="1581863512435"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Magnitude of vectors does not matter, but the number of matching words
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="" ID="ID_1305084572" CREATED="1581863276471" MODIFIED="1581863276472">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="Interest in angle rather than distance" ID="ID_1480671615" CREATED="1581863276473" MODIFIED="1581885846419">
+<hook URI="img/cosine-similarity-example.png" SIZE="0.46692607" NAME="ExternalObject"/>
+<node TEXT="Increasing magnitudes will increase Euclidean distance" ID="ID_932803996" CREATED="1581867846802" MODIFIED="1581867937056"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      i.e. larger word counts affect similarity measures
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="" ID="ID_565755408" CREATED="1581868151218" MODIFIED="1581868151218">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="Covariance &amp; Correlation" FOLDED="true" ID="ID_1945445650" CREATED="1581863533667" MODIFIED="1581876948176">
+<node TEXT="" ID="ID_554720310" CREATED="1581885969072" MODIFIED="1581885969072">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="Covariance" ID="ID_179070383" CREATED="1581873913083" MODIFIED="1581876425085"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Explains the relation between a pair of variables, in how they change in relation with each other
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="\latex $cov(X,Y) =\frac{\sum_{i=1}^{n}(X_{i}-\bar{X})(Y_{i}-\bar{Y})}{n-1}$" ID="ID_1626120294" CREATED="1581863536466" MODIFIED="1581875850217">
+<node TEXT="\latex $X$ \&amp; $Y$" ID="ID_605337692" CREATED="1581876684947" MODIFIED="1581876735751"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Attributes to be compared
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="\latex $X_{i}$ \&amp; $Y_{i}$" ID="ID_660715535" CREATED="1581875741004" MODIFIED="1581876766962"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Index of summation, i.e. values of the attributes X &amp; Y in a set of observations
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="\latex $\bar{X}$ \&amp; $\bar{Y}$" ID="ID_204481298" CREATED="1581876130605" MODIFIED="1581876187493"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Sample mean
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="\latex $n$" ID="ID_355884990" CREATED="1581876197099" MODIFIED="1581876210603"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Number of observations
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="" ID="ID_692099517" CREATED="1581885969071" MODIFIED="1581885969072">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="Gives the direction of a relationship between attributes" ID="ID_374480182" CREATED="1581885969072" MODIFIED="1581886022661">
+<hook URI="img/covariance-meanings.png" SIZE="0.9118541" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="" ID="ID_493140511" CREATED="1581885781792" MODIFIED="1581885781793">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="Correlation" ID="ID_858461178" CREATED="1581876574565" MODIFIED="1581876940268"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Explains how strong a relationship is between a pair of variables
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="\latex $\operatorname{corr}(XY) = {\operatorname{cov}(X,Y) \over \sigma_X \sigma_Y}$" ID="ID_1339560145" CREATED="1581867532688" MODIFIED="1581877132356">
+<node TEXT="\latex $\sigma$" ID="ID_261611157" CREATED="1581874766440" MODIFIED="1581877143776"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Sample standard deviation
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="Interested in the linear relationship between objects" ID="ID_1031248428" CREATED="1581874003785" MODIFIED="1581877343465">
+<node TEXT="If x increases and y also increases" ID="ID_802994859" CREATED="1581867304460" MODIFIED="1581867350878"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      x and y are positively correlated
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="If x increases and y decreases" ID="ID_687745327" CREATED="1581867304460" MODIFIED="1581867354162"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      x and y are negatively correlated
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="" ID="ID_575917881" CREATED="1581885781792" MODIFIED="1581885781792">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="Example of correlation values for different plots" ID="ID_1059789594" CREATED="1581885781793" MODIFIED="1581885815314">
+<hook URI="img/correlation-example.png" SIZE="0.75757575" NAME="ExternalObject"/>
+</node>
+</node>
+</node>
+<node TEXT="" ID="ID_189897154" CREATED="1581868151217" MODIFIED="1581868151218">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="Correlation does not mean causation" ID="ID_1645278962" CREATED="1581868151218" MODIFIED="1581868177412">
+<hook URI="img/correlation-not-necessarily-causation-example.png" SIZE="0.28846154" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="Gower&apos;s similarity index" FOLDED="true" ID="ID_1284942124" CREATED="1581868817138" MODIFIED="1581967177557"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Finding similarities between mixed attribute types
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="" ID="ID_237744489" CREATED="1581967213711" MODIFIED="1581967213713">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="Similarities depend on type of attribute" ID="ID_1456293361" CREATED="1581966372018" MODIFIED="1581966413567">
+<node TEXT="Nominal" ID="ID_979358384" CREATED="1581966087418" MODIFIED="1581966171632">
+<node TEXT="\latex $sim(x_i,y_i)$ equals..." ID="ID_357869828" CREATED="1581966174811" MODIFIED="1581966501485">
+<node TEXT="\latex $1$ if $x_i = y_i$" ID="ID_1236314624" CREATED="1581966294170" MODIFIED="1581966326223"/>
+<node TEXT="\latex $0$ if $x_i \neq y_i$" ID="ID_726035384" CREATED="1581966327961" MODIFIED="1581966349670"/>
+</node>
+</node>
+<node TEXT="Interval &amp; Ratio" ID="ID_1543721715" CREATED="1581966451143" MODIFIED="1581966455340">
+<node TEXT="\latex $sim(x_i,y_i) = 1 - \frac{\mid x_i - y_i \mid}{R_i}$" ID="ID_1041521172" CREATED="1581966902193" MODIFIED="1581966952405">
+<node TEXT="\latex $R_i$" ID="ID_1911257215" CREATED="1581966966164" MODIFIED="1581966982190"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Range of the <i>i</i>th attribute in the data
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="Ordinal" ID="ID_1776706504" CREATED="1581966985342" MODIFIED="1581966986956">
+<node TEXT="" ID="ID_254418629" CREATED="1581967123024" MODIFIED="1581967123025">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="Relative order is extrapolated to ranking" ID="ID_549654447" CREATED="1581966994682" MODIFIED="1581967119673"/>
+<node TEXT="" ID="ID_1377021204" CREATED="1581967123023" MODIFIED="1581967123024">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="Then normalised" ID="ID_798512273" CREATED="1581967123025" MODIFIED="1581967136630"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Treated as an interval/ratio attribute
+    </p>
+  </body>
+</html>
 
 </richcontent>
 </node>
 </node>
 </node>
 </node>
-<node TEXT="Similiarity" POSITION="right" ID="ID_263889927" CREATED="1581844160708" MODIFIED="1581844163612">
-<edge COLOR="#7c007c"/>
+<node TEXT="Gower&apos;s dissimilarity index" ID="ID_1184939551" CREATED="1581967167344" MODIFIED="1581967330028">
+<node TEXT="\latex $d_G(x,y) = 1 - sim_G(x,y)" ID="ID_1643933995" CREATED="1581967186166" MODIFIED="1581967204128"/>
+</node>
+<node TEXT="" ID="ID_278981015" CREATED="1581967213709" MODIFIED="1581967213711">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="" ID="ID_520944453" CREATED="1581967230149" MODIFIED="1581967230149">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="Useful in clustering data with multiple attribute types" ID="ID_408943913" CREATED="1581967213713" MODIFIED="1581967227109"/>
+<node TEXT="" ID="ID_1537115979" CREATED="1581967230148" MODIFIED="1581967230149">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="Identifying transformer faults" ID="ID_722876259" CREATED="1581967230149" MODIFIED="1581967303624">
+<hook URI="img/gowers-transformers-example.png" SIZE="0.5888126" NAME="ExternalObject"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Includes nominal (manufacturer), ratio (rated power &amp; rated voltage), and binary (voltage tap) attributes
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="" ID="ID_419950617" CREATED="1581857554477" MODIFIED="1581857554477">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="Similarity Properties" FOLDED="true" ID="ID_727562573" CREATED="1581857554478" MODIFIED="1581858076281">
+<node TEXT="\latex $sim(x,y)  = sim(y,x) $" ID="ID_484281364" CREATED="1581857333405" MODIFIED="1581857642851"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Symmetry
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="\latex $sim(x,y) = 1$, only if $x = y$" ID="ID_400529104" CREATED="1581857670568" MODIFIED="1581858062901"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Self-similarity
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
 </node>
 </node>
 </map>

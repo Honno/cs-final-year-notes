@@ -67,3 +67,20 @@ Once connections are made
     Add "Most summary statistics can be calculated in a single pass through the data"
 *** TODO percentiles—bell vs \ vs \/ curves
 *** TODO PCA iris dataset styling
+*** TODO Jaccard example
+*** TODO Cosine distance clarification
+    "Interest in angle rather than distance"
+*** TODO [#A] Correlation/covariance formulas clarification
+**** DONE ρ ij = s ij / s i s j thing
+     CLOSED: [2020-02-16 Sun 20:48]
+**** Covariance
+     In covariance two items vary together and it’s a measure that indicates the extent to which two random variables change in cycle. It is a statistical term; it explains the systematic relation between a pair of random variables, wherein changes in one variable reciprocal by a corresponding change in another variable.
+     https://www.edureka.co/blog/interview-questions/data-science-interview-questions/
+***** TODO Example clarification
+**** TODO Correlation example
+     Relationship meanings
+*** TODO Understand Gowers
+**** TODO Ordinal ranking formalas
+**** TODO Transformers example
+     Why was clustering mixed attribute types useful?
+** TODO Unit 3
